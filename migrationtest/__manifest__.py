@@ -1,7 +1,7 @@
 
 {
     'name': 'PIX - Solidali Base',
-    'version': '16.0.1.0.1',
+    'version': '16.0.1.0.2',
     'category': 'Base Solidali',
     'description': """
                 Gestione Base per Solidali - Questo modulo fornisce un sistema integrato per la gestione di servizi di assistenza domiciliare, 
