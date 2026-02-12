@@ -3,7 +3,7 @@ from odoo import api, fields, models
 class Contract(models.Model):
     _inherit = 'hr.contract'
 
-    subscription_id = fields.Many2one('sale.order', string="Abbonamento")
+    #subscription_id = fields.Many2one('sale.order', string="Abbonamento")
 
     
     @api.constrains('employee_id', 'state', 'kanban_state', 'date_start', 'date_end')
