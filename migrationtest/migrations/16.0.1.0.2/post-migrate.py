@@ -1,23 +1,41 @@
 import logging
-
 _logger = logging.getLogger(__name__)
 
-# migrations/16.0.1.1/post-migrate.py
 def migrate(cr, version):
-    _logger.info("#######################################################")
-    _logger.info("Sta Effettuando MIGRAZIONE")
-    _logger.info("#######################################################")
-    
-    # Aggiorniamo hr_version usando i dati salvati nella tabella temporanea
-    cr.execute("""
-        UPDATE hr_version v
-        SET subscription_id = t.subscription_id
-        FROM temp_subscription_move t
-        WHERE v.contract_id = t.old_contract_id
-    """)
-    # Pulizia: eliminiamo la tabella temporanea
-    cr.execute("DROP TABLE IF EXISTS temp_subscription_move")
+    _logger.info("POST-MIGRATION: Generazione record in hr_version")
 
-    _logger.info("#######################################################")
-    _logger.info("FINITA MIGRAZIONE")
-    _logger.info("#######################################################")
+    # 1. Verifichiamo se la tabella hr_version è stata creata dall'ORM
+    cr.execute("SELECT to_regclass('hr_version')")
+    if not cr.fetchone()[0]:
+        _logger.error("POST-MIGRATION: Tabella hr_version non trovata! Verifica i tuoi modelli Python.")
+        return
+
+    # 2. Inserimento massivo dei record
+    # Usiamo '1' per create_uid e write_uid (utente admin)
+    # NOW() per le date di creazione
+    cr.execute("""
+        INSERT INTO hr_version (
+            contract_id, 
+            subscription_id, 
+            create_uid, 
+            write_uid, 
+            create_date, 
+            write_date
+        )
+        SELECT 
+            contract_id, 
+            subscription_id, 
+            1, 
+            1, 
+            NOW(), 
+            NOW()
+        FROM temp_hr_version_data
+        WHERE contract_id NOT IN (SELECT contract_id FROM hr_version)
+    """)
+    
+    count = cr.rowcount
+    _logger.info(f"POST-MIGRATION: Creati {count} nuovi record in hr_version")
+
+    # 3. Pulizia
+    cr.execute("DROP TABLE IF EXISTS temp_hr_version_data")
+    _logger.info("POST-MIGRATION: Pulizia tabella temporanea completata.")
