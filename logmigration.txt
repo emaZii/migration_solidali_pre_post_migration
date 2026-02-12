@@ -1,0 +1,909 @@
+cd /home/emanue/odoo-folder/src16/wing-and-sun ; /usr/bin/env /bin/python3 /home/emanue/.vscode-server/extensions/ms-python.debugpy-2025.18.0-linux-x64/bundled/libs/debugpy/adapter/../../debugpy/launcher 41049 -- /home/emanue/odoo-folder/src16/odoo16/odoo-bin -c /home/emanue/odoo-folder/odoo-conf/16/lab16.conf -u base_solidali --stop-after-init --log-level=debug 
+2026-02-12 11:49:55,071 61322 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.request:INFO" 
+2026-02-12 11:49:55,072 61322 DEBUG ? odoo.netsvc: logger level set: "odoo.http.rpc.response:INFO" 
+2026-02-12 11:49:55,072 61322 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-02-12 11:49:55,072 61322 DEBUG ? odoo.netsvc: logger level set: "odoo:DEBUG" 
+2026-02-12 11:49:55,072 61322 DEBUG ? odoo.netsvc: logger level set: "odoo.sql_db:INFO" 
+2026-02-12 11:49:55,073 61322 DEBUG ? odoo.netsvc: logger level set: ":INFO" 
+2026-02-12 11:49:55,073 61322 INFO ? odoo: Odoo version 16.0 
+2026-02-12 11:49:55,073 61322 INFO ? odoo: Using configuration file at /home/emanue/odoo-folder/odoo-conf/16/lab16.conf 
+2026-02-12 11:49:55,073 61322 INFO ? odoo: addons paths: ['/home/emanue/odoo-folder/src16/odoo16/odoo/addons', '/home/emanue/odoo-folder/odoo-data/16/lab16/addons/16.0', '/home/emanue/odoo-folder/src16/odoo16/addons', '/home/emanue/odoo-folder/src16/odoo16', '/home/emanue/odoo-folder/src16/enterprise-16.0', '/home/emanue/odoo-folder/src16/design-themes-16.0', '/home/emanue/odoo-folder/src16/wing-and-sun', '/home/emanue/odoo-folder/src16/wing-and-sun/OCA/account-financial-reporting', '/home/emanue/odoo-folder/src16/wing-and-sun/OCA/account-financial-tools', '/home/emanue/odoo-folder/src16/wing-and-sun/OCA/l10n-italy', '/home/emanue/odoo-folder/src16/wing-and-sun/OCA/partner-contact', '/home/emanue/odoo-folder/src16/wing-and-sun/OCA/reporting-engine', '/home/emanue/odoo-folder/src16/wing-and-sun/OCA/server-tools', '/home/emanue/odoo-folder/src16/wing-and-sun/OCA/server-ux', '/home/emanue/odoo-folder/src16/wing-and-sun/OCA/web'] 
+2026-02-12 11:49:55,073 61322 INFO ? odoo: database: odoo@localhost:5423 
+2026-02-12 11:49:55,258 61322 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at /usr/local/bin/wkhtmltopdf 
+2026-02-12 11:49:55,470 61322 DEBUG ? odoo.service.server: Setting signal handlers 
+2026-02-12 11:49:55,492 61322 DEBUG lab16 odoo.modules.registry: Multiprocess load registry signaling: [Registry: 255] [Cache: 2344] 
+2026-02-12 11:49:55,505 61322 INFO lab16 odoo.modules.loading: loading 1 modules... 
+2026-02-12 11:49:55,505 61322 DEBUG lab16 odoo.modules.loading: Loading module base (1/1) 
+2026-02-12 11:49:55,516 61322 DEBUG lab16 odoo.modules.loading: Module base loaded in 0.01s, 0 queries 
+2026-02-12 11:49:55,516 61322 INFO lab16 odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2026-02-12 11:49:55,572 61322 DEBUG lab16 odoo.models: Patching ir.cron.cron_name with translate=True 
+2026-02-12 11:49:55,600 61322 INFO lab16 odoo.modules.loading: updating modules list 
+2026-02-12 11:49:55,605 61322 INFO lab16 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via n/a 
+2026-02-12 11:49:59,849 61322 INFO lab16 odoo.addons.base.models.ir_module: ALLOW access to module.button_upgrade on ['PIX - Solidali Base'] to user __system__ #1 via n/a 
+2026-02-12 11:49:59,849 61322 INFO lab16 odoo.addons.base.models.ir_module: ALLOW access to module.update_list on ['PIX - Solidali Base'] to user __system__ #1 via n/a 
+2026-02-12 11:50:03,120 61322 INFO lab16 odoo.addons.base.models.ir_module: ALLOW access to module.button_install on [] to user __system__ #1 via n/a 
+2026-02-12 11:50:03,809 61322 DEBUG lab16 odoo.modules.module: module studio_customization: no manifest file found ('__manifest__.py', '__openerp__.py') 
+2026-02-12 11:50:03,861 61322 DEBUG lab16 odoo.modules.loading: Updating graph with 221 more modules 
+2026-02-12 11:50:03,866 61322 INFO lab16 odoo.modules.loading: loading 221 modules... 
+2026-02-12 11:50:03,866 61322 DEBUG lab16 odoo.modules.loading: Loading module app_addons_view (2/221) 
+2026-02-12 11:50:03,870 61322 DEBUG lab16 odoo.modules.loading: Module app_addons_view loaded in 0.00s, 0 queries 
+2026-02-12 11:50:03,870 61322 DEBUG lab16 odoo.modules.loading: Loading module auditlog (3/221) 
+2026-02-12 11:50:03,880 61322 DEBUG lab16 odoo.modules.loading: Module auditlog loaded in 0.01s, 0 queries 
+2026-02-12 11:50:03,881 61322 DEBUG lab16 odoo.modules.loading: Loading module base_address_extended (4/221) 
+2026-02-12 11:50:03,886 61322 DEBUG lab16 odoo.modules.loading: Module base_address_extended loaded in 0.00s, 0 queries 
+2026-02-12 11:50:03,886 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_delivery_note_base (5/221) 
+2026-02-12 11:50:03,892 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_delivery_note_base loaded in 0.01s, 0 queries 
+2026-02-12 11:50:03,893 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_ipa (6/221) 
+2026-02-12 11:50:03,894 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_ipa loaded in 0.00s, 0 queries 
+2026-02-12 11:50:03,894 61322 DEBUG lab16 odoo.modules.loading: Loading module server_action_mass_edit (7/221) 
+2026-02-12 11:50:03,901 61322 DEBUG lab16 odoo.modules.loading: Module server_action_mass_edit loaded in 0.01s, 0 queries 
+2026-02-12 11:50:03,902 61322 DEBUG lab16 odoo.modules.loading: Loading module uom (8/221) 
+2026-02-12 11:50:03,907 61322 DEBUG lab16 odoo.modules.loading: Module uom loaded in 0.01s, 0 queries 
+2026-02-12 11:50:03,907 61322 DEBUG lab16 odoo.modules.loading: Loading module web (9/221) 
+2026-02-12 11:50:03,910 61322 DEBUG lab16 odoo.modules.loading: Module web loaded in 0.00s, 0 queries 
+2026-02-12 11:50:03,911 61322 DEBUG lab16 odoo.modules.loading: Loading module attachment_indexation (10/221) 
+2026-02-12 11:50:03,920 61322 WARNING lab16 odoo.addons.attachment_indexation.models.ir_attachment: Attachment indexation of PDF documents is unavailable because the 'pdfminer' Python library cannot be found on the system. You may install it from https://pypi.org/project/pdfminer.six/ (e.g. `pip3 install pdfminer.six`) 
+2026-02-12 11:50:03,921 61322 DEBUG lab16 odoo.modules.loading: Module attachment_indexation loaded in 0.01s, 0 queries 
+2026-02-12 11:50:03,921 61322 DEBUG lab16 odoo.modules.loading: Loading module auth_totp (11/221) 
+2026-02-12 11:50:03,936 61322 DEBUG lab16 odoo.modules.loading: Module auth_totp loaded in 0.02s, 0 queries 
+2026-02-12 11:50:03,937 61322 DEBUG lab16 odoo.modules.loading: Loading module barcodes (12/221) 
+2026-02-12 11:50:03,943 61322 DEBUG lab16 odoo.modules.loading: Module barcodes loaded in 0.01s, 0 queries 
+2026-02-12 11:50:03,943 61322 DEBUG lab16 odoo.modules.loading: Loading module base_import (13/221) 
+2026-02-12 11:50:04,283 61322 DEBUG lab16 odoo.modules.loading: Module base_import loaded in 0.34s, 0 queries 
+2026-02-12 11:50:04,283 61322 DEBUG lab16 odoo.modules.loading: Loading module base_import_module (14/221) 
+2026-02-12 11:50:04,289 61322 DEBUG lab16 odoo.modules.loading: Module base_import_module loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,289 61322 DEBUG lab16 odoo.modules.loading: Loading module base_setup (15/221) 
+2026-02-12 11:50:04,298 61322 DEBUG lab16 odoo.modules.loading: Module base_setup loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,298 61322 DEBUG lab16 odoo.modules.loading: Loading module bus (16/221) 
+2026-02-12 11:50:04,437 61322 DEBUG lab16 odoo.modules.loading: Module bus loaded in 0.14s, 0 queries 
+2026-02-12 11:50:04,438 61322 DEBUG lab16 odoo.modules.loading: Loading module date_range (17/221) 
+2026-02-12 11:50:04,442 61322 DEBUG lab16 odoo.modules.loading: Module date_range loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,443 61322 DEBUG lab16 odoo.modules.loading: Loading module http_routing (18/221) 
+2026-02-12 11:50:04,448 61322 DEBUG lab16 odoo.modules.loading: Module http_routing loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,448 61322 DEBUG lab16 odoo.modules.loading: Loading module report_py3o (19/221) 
+2026-02-12 11:50:04,505 61322 DEBUG lab16 odoo.modules.loading: Module report_py3o loaded in 0.06s, 0 queries 
+2026-02-12 11:50:04,505 61322 DEBUG lab16 odoo.modules.loading: Loading module resource (20/221) 
+2026-02-12 11:50:04,514 61322 DEBUG lab16 odoo.modules.loading: Module resource loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,514 61322 DEBUG lab16 odoo.modules.loading: Loading module utm (21/221) 
+2026-02-12 11:50:04,525 61322 DEBUG lab16 odoo.modules.loading: Module utm loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,525 61322 DEBUG lab16 odoo.modules.loading: Loading module web_cohort (22/221) 
+2026-02-12 11:50:04,533 61322 DEBUG lab16 odoo.modules.loading: Module web_cohort loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,533 61322 DEBUG lab16 odoo.modules.loading: Loading module web_enterprise (23/221) 
+2026-02-12 11:50:04,550 61322 DEBUG lab16 odoo.modules.loading: Module web_enterprise loaded in 0.02s, 0 queries 
+2026-02-12 11:50:04,551 61322 DEBUG lab16 odoo.modules.loading: Loading module web_gantt (24/221) 
+2026-02-12 11:50:04,556 61322 DEBUG lab16 odoo.modules.loading: Module web_gantt loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,557 61322 DEBUG lab16 odoo.modules.loading: Loading module web_grid (25/221) 
+2026-02-12 11:50:04,570 61322 DEBUG lab16 odoo.modules.loading: Module web_grid loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,570 61322 DEBUG lab16 odoo.modules.loading: Loading module web_kanban_gauge (26/221) 
+2026-02-12 11:50:04,571 61322 DEBUG lab16 odoo.modules.loading: Module web_kanban_gauge loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,571 61322 DEBUG lab16 odoo.modules.loading: Loading module web_refresher (27/221) 
+2026-02-12 11:50:04,572 61322 DEBUG lab16 odoo.modules.loading: Module web_refresher loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,573 61322 DEBUG lab16 odoo.modules.loading: Loading module web_tour (28/221) 
+2026-02-12 11:50:04,576 61322 DEBUG lab16 odoo.modules.loading: Module web_tour loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,576 61322 DEBUG lab16 odoo.modules.loading: Loading module barcodes_gs1_nomenclature (29/221) 
+2026-02-12 11:50:04,582 61322 DEBUG lab16 odoo.modules.loading: Module barcodes_gs1_nomenclature loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,583 61322 DEBUG lab16 odoo.modules.loading: Loading module iap (30/221) 
+2026-02-12 11:50:04,587 61322 DEBUG lab16 odoo.modules.loading: Module iap loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,587 61322 DEBUG lab16 odoo.modules.loading: Loading module mail (31/221) 
+2026-02-12 11:50:04,660 61322 DEBUG lab16 odoo.modules.loading: Module mail loaded in 0.07s, 0 queries 
+2026-02-12 11:50:04,660 61322 DEBUG lab16 odoo.modules.loading: Loading module partner_firstname (32/221) 
+2026-02-12 11:50:04,663 61322 DEBUG lab16 odoo.modules.loading: Module partner_firstname loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,664 61322 DEBUG lab16 odoo.modules.loading: Loading module report_py3o_fusion_server (33/221) 
+2026-02-12 11:50:04,670 61322 DEBUG lab16 odoo.modules.loading: Module report_py3o_fusion_server loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,670 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet (34/221) 
+2026-02-12 11:50:04,672 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,672 61322 DEBUG lab16 odoo.modules.loading: Loading module web_editor (35/221) 
+2026-02-12 11:50:04,695 61322 DEBUG lab16 odoo.modules.loading: Module web_editor loaded in 0.02s, 0 queries 
+2026-02-12 11:50:04,696 61322 DEBUG lab16 odoo.modules.loading: Loading module web_map (36/221) 
+2026-02-12 11:50:04,705 61322 DEBUG lab16 odoo.modules.loading: Module web_map loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,706 61322 DEBUG lab16 odoo.modules.loading: Loading module web_mobile (37/221) 
+2026-02-12 11:50:04,707 61322 DEBUG lab16 odoo.modules.loading: Module web_mobile loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,708 61322 DEBUG lab16 odoo.modules.loading: Loading module analytic (38/221) 
+2026-02-12 11:50:04,716 61322 DEBUG lab16 odoo.modules.loading: Module analytic loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,717 61322 DEBUG lab16 odoo.modules.loading: Loading module auth_signup (39/221) 
+2026-02-12 11:50:04,723 61322 DEBUG lab16 odoo.modules.loading: Module auth_signup loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,724 61322 DEBUG lab16 odoo.modules.loading: Loading module auth_totp_mail (40/221) 
+2026-02-12 11:50:04,726 61322 DEBUG lab16 odoo.modules.loading: Module auth_totp_mail loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,726 61322 DEBUG lab16 odoo.modules.loading: Loading module barcodes_mobile (41/221) 
+2026-02-12 11:50:04,727 61322 DEBUG lab16 odoo.modules.loading: Module barcodes_mobile loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,727 61322 DEBUG lab16 odoo.modules.loading: Loading module base_automation (42/221) 
+2026-02-12 11:50:04,730 61322 DEBUG lab16 odoo.modules.loading: Module base_automation loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,730 61322 DEBUG lab16 odoo.modules.loading: Loading module base_install_request (43/221) 
+2026-02-12 11:50:04,736 61322 DEBUG lab16 odoo.modules.loading: Module base_install_request loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,736 61322 DEBUG lab16 odoo.modules.loading: Loading module calendar (44/221) 
+2026-02-12 11:50:04,757 61322 DEBUG lab16 odoo.modules.loading: Module calendar loaded in 0.02s, 0 queries 
+2026-02-12 11:50:04,757 61322 DEBUG lab16 odoo.modules.loading: Loading module contacts (45/221) 
+2026-02-12 11:50:04,759 61322 DEBUG lab16 odoo.modules.loading: Module contacts loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,759 61322 DEBUG lab16 odoo.modules.loading: Loading module developer_menu (46/221) 
+2026-02-12 11:50:04,760 61322 DEBUG lab16 odoo.modules.loading: Module developer_menu loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,760 61322 DEBUG lab16 odoo.modules.loading: Loading module hr (47/221) 
+2026-02-12 11:50:04,788 61322 DEBUG lab16 odoo.modules.loading: Module hr loaded in 0.03s, 0 queries 
+2026-02-12 11:50:04,789 61322 DEBUG lab16 odoo.modules.loading: Loading module iap_mail (48/221) 
+2026-02-12 11:50:04,791 61322 DEBUG lab16 odoo.modules.loading: Module iap_mail loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,791 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_pec (49/221) 
+2026-02-12 11:50:04,793 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_pec loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,793 61322 DEBUG lab16 odoo.modules.loading: Loading module mail_bot (50/221) 
+2026-02-12 11:50:04,797 61322 DEBUG lab16 odoo.modules.loading: Module mail_bot loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,797 61322 DEBUG lab16 odoo.modules.loading: Loading module mail_enterprise (51/221) 
+2026-02-12 11:50:04,799 61322 DEBUG lab16 odoo.modules.loading: Module mail_enterprise loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,799 61322 DEBUG lab16 odoo.modules.loading: Loading module note (52/221) 
+2026-02-12 11:50:04,805 61322 DEBUG lab16 odoo.modules.loading: Module note loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,805 61322 DEBUG lab16 odoo.modules.loading: Loading module phone_validation (53/221) 
+2026-02-12 11:50:04,814 61322 DEBUG lab16 odoo.modules.loading: Module phone_validation loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,814 61322 DEBUG lab16 odoo.modules.loading: Loading module privacy_lookup (54/221) 
+2026-02-12 11:50:04,819 61322 DEBUG lab16 odoo.modules.loading: Module privacy_lookup loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,819 61322 DEBUG lab16 odoo.modules.loading: Loading module product (55/221) 
+2026-02-12 11:50:04,904 61322 DEBUG lab16 odoo.modules.loading: Module product loaded in 0.08s, 0 queries 
+2026-02-12 11:50:04,904 61322 DEBUG lab16 odoo.modules.loading: Loading module rating (56/221) 
+2026-02-12 11:50:04,910 61322 DEBUG lab16 odoo.modules.loading: Module rating loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,911 61322 DEBUG lab16 odoo.modules.loading: Loading module sales_team (57/221) 
+2026-02-12 11:50:04,916 61322 DEBUG lab16 odoo.modules.loading: Module sales_team loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,917 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_dashboard (58/221) 
+2026-02-12 11:50:04,920 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_dashboard loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,921 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_edition (59/221) 
+2026-02-12 11:50:04,927 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_edition loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,929 61322 DEBUG lab16 odoo.modules.loading: Loading module timer (60/221) 
+2026-02-12 11:50:04,933 61322 DEBUG lab16 odoo.modules.loading: Module timer loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,934 61322 DEBUG lab16 odoo.modules.loading: Loading module web_unsplash (61/221) 
+2026-02-12 11:50:04,938 61322 DEBUG lab16 odoo.modules.loading: Module web_unsplash loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,938 61322 DEBUG lab16 odoo.modules.loading: Loading module base_location (62/221) 
+2026-02-12 11:50:04,943 61322 DEBUG lab16 odoo.modules.loading: Module base_location loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,944 61322 DEBUG lab16 odoo.modules.loading: Loading module contacts_enterprise (63/221) 
+2026-02-12 11:50:04,946 61322 DEBUG lab16 odoo.modules.loading: Module contacts_enterprise loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,946 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_appraisal (64/221) 
+2026-02-12 11:50:04,963 61322 DEBUG lab16 odoo.modules.loading: Module hr_appraisal loaded in 0.02s, 0 queries 
+2026-02-12 11:50:04,963 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_attendance (65/221) 
+2026-02-12 11:50:04,973 61322 DEBUG lab16 odoo.modules.loading: Module hr_attendance loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,974 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_contract (66/221) 
+2026-02-12 11:50:04,988 61322 DEBUG lab16 odoo.modules.loading: Module hr_contract loaded in 0.01s, 0 queries 
+2026-02-12 11:50:04,988 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_gantt (67/221) 
+2026-02-12 11:50:04,989 61322 DEBUG lab16 odoo.modules.loading: Module hr_gantt loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,989 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_hourly_cost (68/221) 
+2026-02-12 11:50:04,990 61322 DEBUG lab16 odoo.modules.loading: Module hr_hourly_cost loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,991 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_mobile (69/221) 
+2026-02-12 11:50:04,991 61322 DEBUG lab16 odoo.modules.loading: Module hr_mobile loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,991 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_org_chart (70/221) 
+2026-02-12 11:50:04,994 61322 DEBUG lab16 odoo.modules.loading: Module hr_org_chart loaded in 0.00s, 0 queries 
+2026-02-12 11:50:04,995 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_skills (71/221) 
+2026-02-12 11:50:05,008 61322 DEBUG lab16 odoo.modules.loading: Module hr_skills loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,008 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_work_entry (72/221) 
+2026-02-12 11:50:05,013 61322 DEBUG lab16 odoo.modules.loading: Module hr_work_entry loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,013 61322 DEBUG lab16 odoo.modules.loading: Loading module mail_bot_hr (73/221) 
+2026-02-12 11:50:05,013 61322 DEBUG lab16 odoo.modules.loading: Module mail_bot_hr loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,014 61322 DEBUG lab16 odoo.modules.loading: Loading module mail_mobile (74/221) 
+2026-02-12 11:50:05,019 61322 DEBUG lab16 odoo.modules.loading: Module mail_mobile loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,020 61322 DEBUG lab16 odoo.modules.loading: Loading module partner_autocomplete (75/221) 
+2026-02-12 11:50:05,026 61322 DEBUG lab16 odoo.modules.loading: Module partner_autocomplete loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,026 61322 DEBUG lab16 odoo.modules.loading: Loading module partner_identification_document (76/221) 
+2026-02-12 11:50:05,028 61322 WARNING lab16 odoo.api.create: The model odoo.addons.partner_identification_document.models.res_partner_document is not overriding the create method in batch 
+2026-02-12 11:50:05,030 61322 WARNING lab16 odoo.models: The model res.partner.document has no _description 
+2026-02-12 11:50:05,030 61322 DEBUG lab16 odoo.modules.loading: Module partner_identification_document loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,030 61322 DEBUG lab16 odoo.modules.loading: Loading module pix_multiple_addresses (77/221) 
+2026-02-12 11:50:05,032 61322 DEBUG lab16 odoo.modules.loading: Module pix_multiple_addresses loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,033 61322 DEBUG lab16 odoo.modules.loading: Loading module portal (78/221) 
+2026-02-12 11:50:05,050 61322 DEBUG lab16 odoo.modules.loading: Module portal loaded in 0.02s, 0 queries 
+2026-02-12 11:50:05,050 61322 DEBUG lab16 odoo.modules.loading: Loading module sms (79/221) 
+2026-02-12 11:50:05,071 61322 WARNING lab16 odoo.models: The model res.partner.document has no _description 
+2026-02-12 11:50:05,073 61322 DEBUG lab16 odoo.modules.loading: Module sms loaded in 0.02s, 0 queries 
+2026-02-12 11:50:05,073 61322 DEBUG lab16 odoo.modules.loading: Loading module snailmail (80/221) 
+2026-02-12 11:50:05,087 61322 DEBUG lab16 odoo.modules.loading: Module snailmail loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,087 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_dashboard_edition (81/221) 
+2026-02-12 11:50:05,089 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_dashboard_edition loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,089 61322 DEBUG lab16 odoo.modules.loading: Loading module auth_totp_portal (82/221) 
+2026-02-12 11:50:05,090 61322 DEBUG lab16 odoo.modules.loading: Module auth_totp_portal loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,091 61322 DEBUG lab16 odoo.modules.loading: Loading module base_automation_hr_contract (83/221) 
+2026-02-12 11:50:05,093 61322 DEBUG lab16 odoo.modules.loading: Module base_automation_hr_contract loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,093 61322 DEBUG lab16 odoo.modules.loading: Loading module base_location_geonames_import (84/221) 
+2026-02-12 11:50:05,096 61322 DEBUG lab16 odoo.modules.loading: Module base_location_geonames_import loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,096 61322 DEBUG lab16 odoo.modules.loading: Loading module calendar_sms (85/221) 
+2026-02-12 11:50:05,102 61322 DEBUG lab16 odoo.modules.loading: Module calendar_sms loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,103 61322 DEBUG lab16 odoo.modules.loading: Loading module digest (86/221) 
+2026-02-12 11:50:05,111 61322 DEBUG lab16 odoo.modules.loading: Module digest loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,111 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_appraisal_contract (87/221) 
+2026-02-12 11:50:05,114 61322 DEBUG lab16 odoo.modules.loading: Module hr_appraisal_contract loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,114 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_appraisal_skills (88/221) 
+2026-02-12 11:50:05,119 61322 DEBUG lab16 odoo.modules.loading: Module hr_appraisal_skills loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,119 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_attendance_mobile (89/221) 
+2026-02-12 11:50:05,120 61322 DEBUG lab16 odoo.modules.loading: Module hr_attendance_mobile loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,121 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_contract_reports (90/221) 
+2026-02-12 11:50:05,125 61322 DEBUG lab16 odoo.modules.loading: Module hr_contract_reports loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,125 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_work_entry_contract (91/221) 
+2026-02-12 11:50:05,133 61322 DEBUG lab16 odoo.modules.loading: Module hr_work_entry_contract loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,133 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_website_portal_ipa (92/221) 
+2026-02-12 11:50:05,135 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_website_portal_ipa loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,135 61322 DEBUG lab16 odoo.modules.loading: Loading module payment (93/221) 
+2026-02-12 11:50:05,157 61322 DEBUG lab16 odoo.modules.loading: Module payment loaded in 0.02s, 0 queries 
+2026-02-12 11:50:05,157 61322 DEBUG lab16 odoo.modules.loading: Loading module portal_rating (94/221) 
+2026-02-12 11:50:05,162 61322 DEBUG lab16 odoo.modules.loading: Module portal_rating loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,162 61322 DEBUG lab16 odoo.modules.loading: Loading module web_studio (95/221) 
+2026-02-12 11:50:05,259 61322 WARNING lab16 odoo.models: The model res.partner.document has no _description 
+2026-02-12 11:50:05,267 61322 WARNING lab16 odoo.models: The model res.partner.document has no _description 
+2026-02-12 11:50:05,271 61322 DEBUG lab16 odoo.modules.loading: Module web_studio loaded in 0.11s, 0 queries 
+2026-02-12 11:50:05,272 61322 DEBUG lab16 odoo.modules.loading: Loading module account (96/221) 
+2026-02-12 11:50:05,378 61322 DEBUG lab16 odoo.modules.loading: Module account loaded in 0.11s, 0 queries 
+2026-02-12 11:50:05,378 61322 DEBUG lab16 odoo.modules.loading: Loading module digest_enterprise (97/221) 
+2026-02-12 11:50:05,379 61322 DEBUG lab16 odoo.modules.loading: Module digest_enterprise loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,379 61322 DEBUG lab16 odoo.modules.loading: Loading module documents (98/221) 
+2026-02-12 11:50:05,403 61322 DEBUG lab16 odoo.modules.loading: Module documents loaded in 0.02s, 0 queries 
+2026-02-12 11:50:05,403 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_recruitment (99/221) 
+2026-02-12 11:50:05,420 61322 DEBUG lab16 odoo.modules.loading: Module hr_recruitment loaded in 0.02s, 0 queries 
+2026-02-12 11:50:05,420 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_work_entry_contract_attendance (100/221) 
+2026-02-12 11:50:05,424 61322 DEBUG lab16 odoo.modules.loading: Module hr_work_entry_contract_attendance loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,424 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_work_entry_contract_enterprise (101/221) 
+2026-02-12 11:50:05,425 61322 DEBUG lab16 odoo.modules.loading: Module hr_work_entry_contract_enterprise loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,425 61322 DEBUG lab16 odoo.modules.loading: Loading module payment_custom (102/221) 
+2026-02-12 11:50:05,428 61322 DEBUG lab16 odoo.modules.loading: Module payment_custom loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,428 61322 DEBUG lab16 odoo.modules.loading: Loading module payment_paypal (103/221) 
+2026-02-12 11:50:05,436 61322 DEBUG lab16 odoo.modules.loading: Module payment_paypal loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,436 61322 DEBUG lab16 odoo.modules.loading: Loading module payment_stripe (104/221) 
+2026-02-12 11:50:05,443 61322 DEBUG lab16 odoo.modules.loading: Module payment_stripe loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,444 61322 DEBUG lab16 odoo.modules.loading: Loading module project (105/221) 
+2026-02-12 11:50:05,478 61322 DEBUG lab16 odoo.modules.loading: Module project loaded in 0.03s, 0 queries 
+2026-02-12 11:50:05,478 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_dashboard_hr_contract (106/221) 
+2026-02-12 11:50:05,479 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_dashboard_hr_contract loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,479 61322 DEBUG lab16 odoo.modules.loading: Loading module stock (107/221) 
+2026-02-12 11:50:05,485 61322 DEBUG lab16 odoo.modules.loading: Module stock loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,485 61322 DEBUG lab16 odoo.modules.loading: Loading module account_accountant (108/221) 
+2026-02-12 11:50:05,500 61322 DEBUG lab16 odoo.modules.loading: Module account_accountant loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,500 61322 DEBUG lab16 odoo.modules.loading: Loading module account_batch_payment (109/221) 
+2026-02-12 11:50:05,511 61322 DEBUG lab16 odoo.modules.loading: Module account_batch_payment loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,511 61322 DEBUG lab16 odoo.modules.loading: Loading module account_custom (110/221) 
+2026-02-12 11:50:05,513 61322 DEBUG lab16 odoo.modules.loading: Module account_custom loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,513 61322 DEBUG lab16 odoo.modules.loading: Loading module account_fiscal_year (111/221) 
+2026-02-12 11:50:05,515 61322 DEBUG lab16 odoo.modules.loading: Module account_fiscal_year loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,515 61322 DEBUG lab16 odoo.modules.loading: Loading module account_invoice_extract (112/221) 
+2026-02-12 11:50:05,526 61322 DEBUG lab16 odoo.modules.loading: Module account_invoice_extract loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,526 61322 DEBUG lab16 odoo.modules.loading: Loading module account_payment (113/221) 
+2026-02-12 11:50:05,535 61322 DEBUG lab16 odoo.modules.loading: Module account_payment loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,536 61322 DEBUG lab16 odoo.modules.loading: Loading module account_sequence (114/221) 
+2026-02-12 11:50:05,539 61322 DEBUG lab16 odoo.modules.loading: Module account_sequence loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,539 61322 DEBUG lab16 odoo.modules.loading: Loading module account_tax_balance (115/221) 
+2026-02-12 11:50:05,545 61322 DEBUG lab16 odoo.modules.loading: Module account_tax_balance loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,545 61322 DEBUG lab16 odoo.modules.loading: Loading module analytic_enterprise (116/221) 
+2026-02-12 11:50:05,547 61322 DEBUG lab16 odoo.modules.loading: Module analytic_enterprise loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,547 61322 DEBUG lab16 odoo.modules.loading: Loading module base_iban (117/221) 
+2026-02-12 11:50:05,549 61322 DEBUG lab16 odoo.modules.loading: Module base_iban loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,549 61322 DEBUG lab16 odoo.modules.loading: Loading module base_vat (118/221) 
+2026-02-12 11:50:05,553 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'AR200-5536168-2 or 20055361682'", skipped 
+2026-02-12 11:50:05,553 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'either 11 digits for CPF or 14 digits for CNPJ'", skipped 
+2026-02-12 11:50:05,553 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'3101012009'", skipped 
+2026-02-12 11:50:05,553 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'CHE-123.456.788 TVA or CHE-123.456.788 MWST or CHE-123.456.788 IVA'", skipped 
+2026-02-12 11:50:05,554 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'CO213123432-1 or CO213.123.432-1'", skipped 
+2026-02-12 11:50:05,554 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'DE123456788 or 12/345/67890'", skipped 
+2026-02-12 11:50:05,554 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'DO1-01-85004-3 or 101850043'", skipped 
+2026-02-12 11:50:05,554 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'1792060346001 or 1792060346'", skipped 
+2026-02-12 11:50:05,555 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'GB123456782 or XI123456782'", skipped 
+2026-02-12 11:50:05,555 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'HU12345676 or 12345678-1-11 or 8071592153'", skipped 
+2026-02-12 11:50:05,556 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'XXXXXXXXX [9 digits] and it should respect the Luhn algorithm checksum'", skipped 
+2026-02-12 11:50:05,556 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'MXGODE561231GR8 or GODE561231GR8'", skipped 
+2026-02-12 11:50:05,556 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'49-098-576 or 49098576'", skipped 
+2026-02-12 11:50:05,556 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'10XXXXXXXXY or 20XXXXXXXXY or 15XXXXXXXXY or 16XXXXXXXXY or 17XXXXXXXXY'", skipped 
+2026-02-12 11:50:05,557 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'17291716060 (NIN) or 1729171602 (VKN)'", skipped 
+2026-02-12 11:50:05,557 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for ""Example: '219999830019' (format: 12 digits, all numbers, valid check digit)"", skipped 
+2026-02-12 11:50:05,557 61322 DEBUG lab16 odoo.tools.translate: translation went wrong for "'310175397400003 [Fifteen digits, first and last digits should be "3"]'", skipped 
+2026-02-12 11:50:05,565 61322 DEBUG lab16 odoo.modules.loading: Module base_vat loaded in 0.02s, 0 queries 
+2026-02-12 11:50:05,565 61322 DEBUG lab16 odoo.modules.loading: Loading module currency_rate_live (119/221) 
+2026-02-12 11:50:05,569 61322 DEBUG lab16 odoo.modules.loading: Module currency_rate_live loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,569 61322 DEBUG lab16 odoo.modules.loading: Loading module date_range_account (120/221) 
+2026-02-12 11:50:05,570 61322 DEBUG lab16 odoo.modules.loading: Module date_range_account loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,570 61322 DEBUG lab16 odoo.modules.loading: Loading module documents_hr (121/221) 
+2026-02-12 11:50:05,579 61322 DEBUG lab16 odoo.modules.loading: Module documents_hr loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,579 61322 DEBUG lab16 odoo.modules.loading: Loading module documents_product (122/221) 
+2026-02-12 11:50:05,583 61322 DEBUG lab16 odoo.modules.loading: Module documents_product loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,584 61322 DEBUG lab16 odoo.modules.loading: Loading module documents_project (123/221) 
+2026-02-12 11:50:05,594 61322 DEBUG lab16 odoo.modules.loading: Module documents_project loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,594 61322 DEBUG lab16 odoo.modules.loading: Loading module documents_spreadsheet (124/221) 
+2026-02-12 11:50:05,601 61322 DEBUG lab16 odoo.modules.loading: Module documents_spreadsheet loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,601 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_payroll (125/221) 
+2026-02-12 11:50:05,642 61322 DEBUG lab16 odoo.modules.loading: Module hr_payroll loaded in 0.04s, 0 queries 
+2026-02-12 11:50:05,642 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_recruitment_extract (126/221) 
+2026-02-12 11:50:05,647 61322 DEBUG lab16 odoo.modules.loading: Module hr_recruitment_extract loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,647 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_recruitment_reports (127/221) 
+2026-02-12 11:50:05,650 61322 DEBUG lab16 odoo.modules.loading: Module hr_recruitment_reports loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,650 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_recruitment_skills (128/221) 
+2026-02-12 11:50:05,653 61322 DEBUG lab16 odoo.modules.loading: Module hr_recruitment_skills loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,653 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_timesheet (129/221) 
+2026-02-12 11:50:05,668 61322 DEBUG lab16 odoo.modules.loading: Module hr_timesheet loaded in 0.02s, 0 queries 
+2026-02-12 11:50:05,668 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_account_stamp (130/221) 
+2026-02-12 11:50:05,672 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_account_stamp loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,672 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_appointment_code (131/221) 
+2026-02-12 11:50:05,673 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_appointment_code loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,674 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_fiscalcode (132/221) 
+2026-02-12 11:50:05,681 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_fiscalcode loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,681 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_rea (133/221) 
+2026-02-12 11:50:05,685 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_rea loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,685 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_vat_payability (134/221) 
+2026-02-12 11:50:05,687 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_vat_payability loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,687 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_withholding_tax (135/221) 
+2026-02-12 11:50:05,696 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_withholding_tax loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,697 61322 DEBUG lab16 odoo.modules.loading: Loading module project_enterprise (136/221) 
+2026-02-12 11:50:05,706 61322 DEBUG lab16 odoo.modules.loading: Module project_enterprise loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,707 61322 DEBUG lab16 odoo.modules.loading: Loading module project_sms (137/221) 
+2026-02-12 11:50:05,710 61322 DEBUG lab16 odoo.modules.loading: Module project_sms loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,710 61322 DEBUG lab16 odoo.modules.loading: Loading module snailmail_account (138/221) 
+2026-02-12 11:50:05,717 61322 DEBUG lab16 odoo.modules.loading: Module snailmail_account loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,718 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_account (139/221) 
+2026-02-12 11:50:05,720 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_account loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,720 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_dashboard_account (140/221) 
+2026-02-12 11:50:05,721 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_dashboard_account loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,721 61322 DEBUG lab16 odoo.modules.loading: Loading module stock_account (141/221) 
+2026-02-12 11:50:05,739 61322 DEBUG lab16 odoo.modules.loading: Module stock_account loaded in 0.02s, 0 queries 
+2026-02-12 11:50:05,740 61322 DEBUG lab16 odoo.modules.loading: Loading module stock_enterprise (142/221) 
+2026-02-12 11:50:05,742 61322 DEBUG lab16 odoo.modules.loading: Module stock_enterprise loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,742 61322 DEBUG lab16 odoo.modules.loading: Loading module stock_sms (143/221) 
+2026-02-12 11:50:05,747 61322 DEBUG lab16 odoo.modules.loading: Module stock_sms loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,747 61322 DEBUG lab16 odoo.modules.loading: Loading module account_accountant_batch_payment (144/221) 
+2026-02-12 11:50:05,753 61322 DEBUG lab16 odoo.modules.loading: Module account_accountant_batch_payment loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,753 61322 DEBUG lab16 odoo.modules.loading: Loading module account_auto_transfer (145/221) 
+2026-02-12 11:50:05,757 61322 DEBUG lab16 odoo.modules.loading: Module account_auto_transfer loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,757 61322 DEBUG lab16 odoo.modules.loading: Loading module account_bank_statement_import (146/221) 
+2026-02-12 11:50:05,761 61322 DEBUG lab16 odoo.modules.loading: Module account_bank_statement_import loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,761 61322 DEBUG lab16 odoo.modules.loading: Loading module account_base_import (147/221) 
+2026-02-12 11:50:05,764 61322 DEBUG lab16 odoo.modules.loading: Module account_base_import loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,765 61322 DEBUG lab16 odoo.modules.loading: Loading module account_online_synchronization (148/221) 
+2026-02-12 11:50:05,776 61322 DEBUG lab16 odoo.modules.loading: Module account_online_synchronization loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,776 61322 DEBUG lab16 odoo.modules.loading: Loading module account_payment_invoice_online_payment_patch (149/221) 
+2026-02-12 11:50:05,780 61322 DEBUG lab16 odoo.modules.loading: Module account_payment_invoice_online_payment_patch loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,780 61322 DEBUG lab16 odoo.modules.loading: Loading module account_predictive_bills (150/221) 
+2026-02-12 11:50:05,782 61322 DEBUG lab16 odoo.modules.loading: Module account_predictive_bills loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,782 61322 DEBUG lab16 odoo.modules.loading: Loading module account_qr_code_sepa (151/221) 
+2026-02-12 11:50:05,785 61322 DEBUG lab16 odoo.modules.loading: Module account_qr_code_sepa loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,785 61322 DEBUG lab16 odoo.modules.loading: Loading module account_reports (152/221) 
+2026-02-12 11:50:05,819 61322 DEBUG lab16 odoo.modules.loading: Module account_reports loaded in 0.03s, 0 queries 
+2026-02-12 11:50:05,819 61322 DEBUG lab16 odoo.modules.loading: Loading module account_sepa (153/221) 
+2026-02-12 11:50:05,826 61322 DEBUG lab16 odoo.modules.loading: Module account_sepa loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,826 61322 DEBUG lab16 odoo.modules.loading: Loading module documents_hr_contract (154/221) 
+2026-02-12 11:50:05,830 61322 DEBUG lab16 odoo.modules.loading: Module documents_hr_contract loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,830 61322 DEBUG lab16 odoo.modules.loading: Loading module documents_hr_payroll (155/221) 
+2026-02-12 11:50:05,857 61322 DEBUG lab16 odoo.modules.loading: Module documents_hr_payroll loaded in 0.03s, 0 queries 
+2026-02-12 11:50:05,857 61322 DEBUG lab16 odoo.modules.loading: Loading module documents_hr_recruitment (156/221) 
+2026-02-12 11:50:05,861 61322 DEBUG lab16 odoo.modules.loading: Module documents_hr_recruitment loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,861 61322 DEBUG lab16 odoo.modules.loading: Loading module documents_spreadsheet_account (157/221) 
+2026-02-12 11:50:05,862 61322 DEBUG lab16 odoo.modules.loading: Module documents_spreadsheet_account loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,862 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_payroll_account (158/221) 
+2026-02-12 11:50:05,867 61322 DEBUG lab16 odoo.modules.loading: Module hr_payroll_account loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,867 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_payroll_attendance (159/221) 
+2026-02-12 11:50:05,870 61322 DEBUG lab16 odoo.modules.loading: Module hr_payroll_attendance loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,871 61322 DEBUG lab16 odoo.modules.loading: Loading module hr_timesheet_attendance (160/221) 
+2026-02-12 11:50:05,873 61322 DEBUG lab16 odoo.modules.loading: Module hr_timesheet_attendance loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,873 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it (161/221) 
+2026-02-12 11:50:05,875 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,875 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_account (162/221) 
+2026-02-12 11:50:06,641 61322 INFO lab16 xmlschema: Import namespace 'http://www.w3.org/2000/09/xmldsig#' from 'http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd' 
+2026-02-12 11:50:06,641 61322 INFO lab16 xmlschema: Import namespace 'http://www.w3.org/2000/09/xmldsig#' from 'file:///home/emanue/odoo-folder/src16/wing-and-sun/OCA/l10n-italy/l10n_it_account/tools/xsd/xmldsig-core-schema.xsd' 
+2026-02-12 11:50:06,696 61322 INFO lab16 xmlschema: Namespace 'http://www.w3.org/2000/09/xmldsig#' imported from 'file:///home/emanue/odoo-folder/src16/wing-and-sun/OCA/l10n-italy/l10n_it_account/tools/xsd/xmldsig-core-schema.xsd' 
+2026-02-12 11:50:06,822 61322 INFO lab16 xmlschema: Import namespace 'http://www.w3.org/2000/09/xmldsig#' from 'http://www.w3.org/TR/2002/REC-xmldsig-core-20020212/xmldsig-core-schema.xsd' 
+2026-02-12 11:50:06,823 61322 INFO lab16 xmlschema: Import namespace 'http://www.w3.org/2000/09/xmldsig#' from 'file:///home/emanue/odoo-folder/src16/wing-and-sun/OCA/l10n-italy/l10n_it_account/tools/xsd/xmldsig-core-schema.xsd' 
+2026-02-12 11:50:06,879 61322 INFO lab16 xmlschema: Namespace 'http://www.w3.org/2000/09/xmldsig#' imported from 'file:///home/emanue/odoo-folder/src16/wing-and-sun/OCA/l10n-italy/l10n_it_account/tools/xsd/xmldsig-core-schema.xsd' 
+2026-02-12 11:50:06,898 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_account loaded in 1.02s, 0 queries 
+2026-02-12 11:50:06,898 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_website_portal_fiscalcode (163/221) 
+2026-02-12 11:50:06,901 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_website_portal_fiscalcode loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,901 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_withholding_tax_payment (164/221) 
+2026-02-12 11:50:06,905 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_withholding_tax_payment loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,905 61322 DEBUG lab16 odoo.modules.loading: Loading module project_enterprise_hr (165/221) 
+2026-02-12 11:50:06,908 61322 DEBUG lab16 odoo.modules.loading: Module project_enterprise_hr loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,908 61322 DEBUG lab16 odoo.modules.loading: Loading module project_timesheet_synchro (166/221) 
+2026-02-12 11:50:06,910 61322 DEBUG lab16 odoo.modules.loading: Module project_timesheet_synchro loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,910 61322 DEBUG lab16 odoo.modules.loading: Loading module sale (167/221) 
+2026-02-12 11:50:06,947 61322 DEBUG lab16 odoo.modules.loading: Module sale loaded in 0.04s, 0 queries 
+2026-02-12 11:50:06,947 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_dashboard_account_accountant (168/221) 
+2026-02-12 11:50:06,949 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_dashboard_account_accountant loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,949 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_dashboard_documents (169/221) 
+2026-02-12 11:50:06,953 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_dashboard_documents loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,953 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_dashboard_hr_timesheet (170/221) 
+2026-02-12 11:50:06,953 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_dashboard_hr_timesheet loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,954 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_dashboard_stock (171/221) 
+2026-02-12 11:50:06,954 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_dashboard_stock loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,954 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_dashboard_stock_account (172/221) 
+2026-02-12 11:50:06,955 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_dashboard_stock_account loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,955 61322 DEBUG lab16 odoo.modules.loading: Loading module stock_account_enterprise (173/221) 
+2026-02-12 11:50:06,956 61322 DEBUG lab16 odoo.modules.loading: Module stock_account_enterprise loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,957 61322 DEBUG lab16 odoo.modules.loading: Loading module stock_accountant (174/221) 
+2026-02-12 11:50:06,958 61322 DEBUG lab16 odoo.modules.loading: Module stock_accountant loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,958 61322 DEBUG lab16 odoo.modules.loading: Loading module timesheet_grid (175/221) 
+2026-02-12 11:50:06,972 61322 DEBUG lab16 odoo.modules.loading: Module timesheet_grid loaded in 0.01s, 0 queries 
+2026-02-12 11:50:06,973 61322 DEBUG lab16 odoo.modules.loading: Loading module account_asset (176/221) 
+2026-02-12 11:50:06,986 61322 DEBUG lab16 odoo.modules.loading: Module account_asset loaded in 0.01s, 0 queries 
+2026-02-12 11:50:06,986 61322 DEBUG lab16 odoo.modules.loading: Loading module account_bank_statement_import_camt (177/221) 
+2026-02-12 11:50:07,039 61322 DEBUG lab16 odoo.modules.loading: Module account_bank_statement_import_camt loaded in 0.05s, 0 queries 
+2026-02-12 11:50:07,040 61322 DEBUG lab16 odoo.modules.loading: Loading module account_bank_statement_import_csv (178/221) 
+2026-02-12 11:50:07,042 61322 DEBUG lab16 odoo.modules.loading: Module account_bank_statement_import_csv loaded in 0.00s, 0 queries 
+2026-02-12 11:50:07,042 61322 DEBUG lab16 odoo.modules.loading: Loading module account_bank_statement_import_ofx (179/221) 
+2026-02-12 11:50:07,047 61322 DEBUG lab16 odoo.modules.loading: Module account_bank_statement_import_ofx loaded in 0.00s, 0 queries 
+2026-02-12 11:50:07,047 61322 DEBUG lab16 odoo.modules.loading: Loading module account_followup (180/221) 
+2026-02-12 11:50:07,059 61322 DEBUG lab16 odoo.modules.loading: Module account_followup loaded in 0.01s, 0 queries 
+2026-02-12 11:50:07,059 61322 DEBUG lab16 odoo.modules.loading: Loading module account_reports_tax_reminder (181/221) 
+2026-02-12 11:50:07,061 61322 DEBUG lab16 odoo.modules.loading: Module account_reports_tax_reminder loaded in 0.00s, 0 queries 
+2026-02-12 11:50:07,061 61322 DEBUG lab16 odoo.modules.loading: Loading module account_sepa_pain_001_001_09 (182/221) 
+2026-02-12 11:50:07,065 61322 DEBUG lab16 odoo.modules.loading: Module account_sepa_pain_001_001_09 loaded in 0.00s, 0 queries 
+2026-02-12 11:50:07,066 61322 DEBUG lab16 odoo.modules.loading: Loading module documents_account (183/221) 
+2026-02-12 11:50:07,072 61322 DEBUG lab16 odoo.modules.loading: Module documents_account loaded in 0.01s, 0 queries 
+2026-02-12 11:50:07,073 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_account_tax_kind (184/221) 
+2026-02-12 11:50:07,076 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_account_tax_kind loaded in 0.00s, 0 queries 
+2026-02-12 11:50:07,076 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_fiscal_document_type (185/221) 
+2026-02-12 11:50:07,081 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_fiscal_document_type loaded in 0.00s, 0 queries 
+2026-02-12 11:50:07,082 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_fiscal_payment_term (186/221) 
+2026-02-12 11:50:07,084 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_fiscal_payment_term loaded in 0.00s, 0 queries 
+2026-02-12 11:50:07,084 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_payment_reason (187/221) 
+2026-02-12 11:50:07,086 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_payment_reason loaded in 0.00s, 0 queries 
+2026-02-12 11:50:07,086 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_reports (188/221) 
+2026-02-12 11:50:05,964 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_reports loaded in -1.12s, 0 queries 
+2026-02-12 11:50:05,964 61322 DEBUG lab16 odoo.modules.loading: Loading module project_enterprise_hr_contract (189/221) 
+2026-02-12 11:50:05,965 61322 DEBUG lab16 odoo.modules.loading: Module project_enterprise_hr_contract loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,965 61322 DEBUG lab16 odoo.modules.loading: Loading module project_hr_payroll_account (190/221) 
+2026-02-12 11:50:05,966 61322 DEBUG lab16 odoo.modules.loading: Module project_hr_payroll_account loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,966 61322 DEBUG lab16 odoo.modules.loading: Loading module sale_account_accountant (191/221) 
+2026-02-12 11:50:05,969 61322 DEBUG lab16 odoo.modules.loading: Module sale_account_accountant loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,969 61322 DEBUG lab16 odoo.modules.loading: Loading module sale_enterprise (192/221) 
+2026-02-12 11:50:05,970 61322 DEBUG lab16 odoo.modules.loading: Module sale_enterprise loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,971 61322 DEBUG lab16 odoo.modules.loading: Loading module sale_management (193/221) 
+2026-02-12 11:50:05,982 61322 DEBUG lab16 odoo.modules.loading: Module sale_management loaded in 0.01s, 0 queries 
+2026-02-12 11:50:05,982 61322 DEBUG lab16 odoo.modules.loading: Loading module sale_sms (194/221) 
+2026-02-12 11:50:05,984 61322 DEBUG lab16 odoo.modules.loading: Module sale_sms loaded in 0.00s, 0 queries 
+2026-02-12 11:50:05,984 61322 DEBUG lab16 odoo.modules.loading: Loading module sale_stock (195/221) 
+2026-02-12 11:50:06,001 61322 DEBUG lab16 odoo.modules.loading: Module sale_stock loaded in 0.02s, 0 queries 
+2026-02-12 11:50:06,002 61322 DEBUG lab16 odoo.modules.loading: Loading module sale_temporal (196/221) 
+2026-02-12 11:50:06,013 61322 DEBUG lab16 odoo.modules.loading: Module sale_temporal loaded in 0.01s, 0 queries 
+2026-02-12 11:50:06,013 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_dashboard_sale (197/221) 
+2026-02-12 11:50:06,014 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_dashboard_sale loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,014 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_fatturapa (198/221) 
+2026-02-12 11:50:06,056 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_fatturapa loaded in 0.04s, 0 queries 
+2026-02-12 11:50:06,056 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_invoices_data_communication (199/221) 
+2026-02-12 11:50:06,069 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_invoices_data_communication loaded in 0.01s, 0 queries 
+2026-02-12 11:50:06,069 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_withholding_tax_reason (200/221) 
+2026-02-12 11:50:06,071 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_withholding_tax_reason loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,071 61322 DEBUG lab16 odoo.modules.loading: Loading module project_account_asset (201/221) 
+2026-02-12 11:50:06,073 61322 DEBUG lab16 odoo.modules.loading: Module project_account_asset loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,073 61322 DEBUG lab16 odoo.modules.loading: Loading module sale_project (202/221) 
+2026-02-12 11:50:06,086 61322 DEBUG lab16 odoo.modules.loading: Module sale_project loaded in 0.01s, 0 queries 
+2026-02-12 11:50:06,086 61322 DEBUG lab16 odoo.modules.loading: Loading module sale_subscription (203/221) 
+2026-02-12 11:50:06,111 61322 DEBUG lab16 odoo.modules.loading: Module sale_subscription loaded in 0.02s, 0 queries 
+2026-02-12 11:50:06,111 61322 DEBUG lab16 odoo.modules.loading: Loading module snailmail_account_followup (204/221) 
+2026-02-12 11:50:06,116 61322 DEBUG lab16 odoo.modules.loading: Module snailmail_account_followup loaded in 0.00s, 0 queries 
+2026-02-12 11:50:06,116 61322 INFO lab16 odoo.modules.loading: Loading module base_solidali (205/221) 
+2026-02-12 11:50:06,289 61322 DEBUG lab16 odoo.models: Patching ir.cron.cron_name with translate=True 
+2026-02-12 11:50:06,309 61322 DEBUG lab16 odoo.models: Patching res.config.settings.report_footer with translate=True 
+2026-02-12 11:50:06,313 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms with translate=True 
+2026-02-12 11:50:06,313 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms_html with translate=True 
+2026-02-12 11:50:06,335 61322 DEBUG lab16 odoo.models: Patching base.document.layout.report_footer with translate=True 
+2026-02-12 11:50:06,341 61322 DEBUG lab16 odoo.models: Patching date.range.type_name with translate=True 
+2026-02-12 11:50:06,376 61322 DEBUG lab16 odoo.models: Patching product.template.uom_name with translate=True 
+2026-02-12 11:50:06,380 61322 DEBUG lab16 odoo.models: Patching product.template.attribute.value.name with translate=True 
+2026-02-12 11:50:06,427 61322 DEBUG lab16 odoo.models: Patching account.report.expression.report_line_name with translate=True 
+2026-02-12 11:50:06,437 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_blocked with translate=True 
+2026-02-12 11:50:06,437 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_done with translate=True 
+2026-02-12 11:50:06,437 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_normal with translate=True 
+2026-02-12 11:50:06,448 61322 DEBUG lab16 odoo.models: Patching project.task.legend_blocked with translate=True 
+2026-02-12 11:50:06,449 61322 DEBUG lab16 odoo.models: Patching project.task.legend_done with translate=True 
+2026-02-12 11:50:06,449 61322 DEBUG lab16 odoo.models: Patching project.task.legend_normal with translate=True 
+2026-02-12 11:50:06,462 61322 DEBUG lab16 odoo.models: Patching stock.replenishment.option.uom with translate=True 
+2026-02-12 11:50:06,471 61322 DEBUG lab16 odoo.models: Patching hr.payroll.edit.payslip.worked.days.line.name with translate=True 
+2026-02-12 11:50:06,475 61322 DEBUG lab16 odoo.models: Patching stock.valuation.layer.revaluation.product_uom_name with translate=True 
+2026-02-12 11:50:06,659 61322 INFO lab16 odoo.modules.migration: module base_solidali: Running migration [>16.0.1.0.2] pre-migration 
+2026-02-12 11:50:06,659 61322 INFO lab16 pre-migration: ####################################################### 
+2026-02-12 11:50:06,659 61322 INFO lab16 pre-migration: PARTITA MIGRAZIONE 
+2026-02-12 11:50:06,660 61322 INFO lab16 pre-migration: ####################################################### 
+2026-02-12 11:50:06,668 61322 WARNING lab16 odoo.api.create: The model odoo.addons.base_solidali.models.hr_employee is not overriding the create method in batch 
+2026-02-12 11:50:06,716 61322 WARNING lab16 odoo.models: The model solidali_paghe.ritenuta_acconto has no _description 
+2026-02-12 11:50:06,716 61322 WARNING lab16 odoo.models: The model solidali_paghe.mav has no _description 
+2026-02-12 11:50:06,716 61322 WARNING lab16 odoo.models: The model solidali_paghe.cud has no _description 
+2026-02-12 11:50:06,717 61322 WARNING lab16 odoo.models: The model solidali_paghe.mav.periodo has no _description 
+2026-02-12 11:50:06,717 61322 WARNING lab16 odoo.models: The model solidali_paghe.dettaglio_paga has no _description 
+2026-02-12 11:50:06,717 61322 WARNING lab16 odoo.models: The model solidali_paghe.settimana_paga_lt24 has no _description 
+2026-02-12 11:50:06,717 61322 WARNING lab16 odoo.models: The model solidali_paghe.settimana_paga_gt24 has no _description 
+2026-02-12 11:50:06,717 61322 WARNING lab16 odoo.models: The model solidali_paghe.paga has no _description 
+2026-02-12 11:50:06,717 61322 WARNING lab16 odoo.models: The model solidali.presenza has no _description 
+2026-02-12 11:50:06,718 61322 WARNING lab16 odoo.models: The model hr.version has no _description 
+2026-02-12 11:50:06,718 61322 WARNING lab16 odoo.models: The model sub.servizio.line has no _description 
+2026-02-12 11:50:06,718 61322 WARNING lab16 odoo.models: The model solidali.titolo_studio has no _description 
+2026-02-12 11:50:06,719 61322 WARNING lab16 odoo.models: The model solidali.lingua_conosciuta has no _description 
+2026-02-12 11:50:06,719 61322 WARNING lab16 odoo.models: The model solidali.tipo_permesso has no _description 
+2026-02-12 11:50:06,719 61322 WARNING lab16 odoo.models: The model solidali.motivo_permesso has no _description 
+2026-02-12 11:50:06,719 61322 WARNING lab16 odoo.models: The model solidali.mezzo_locomozione has no _description 
+2026-02-12 11:50:06,719 61322 WARNING lab16 odoo.models: The model solidali.rapporto_lavorativo has no _description 
+2026-02-12 11:50:06,719 61322 WARNING lab16 odoo.models: The model solidali.figura_professionale has no _description 
+2026-02-12 11:50:06,719 61322 WARNING lab16 odoo.models: The model solidali.tipo_ccnl has no _description 
+2026-02-12 11:50:06,719 61322 WARNING lab16 odoo.models: The model solidali.regione_italiana has no _description 
+2026-02-12 11:50:06,720 61322 WARNING lab16 odoo.models: The model solidali.corso_professionale has no _description 
+2026-02-12 11:50:06,720 61322 WARNING lab16 odoo.models: The model solidali_paghe.conf_fatture has no _description 
+2026-02-12 11:50:06,720 61322 WARNING lab16 odoo.models: The model solidali_paghe.livello_paga has no _description 
+2026-02-12 11:50:06,721 61322 WARNING lab16 odoo.models: The model solidali_paghe.conf_retribuzioni has no _description 
+2026-02-12 11:50:06,721 61322 WARNING lab16 odoo.models: The model solidali_paghe.conf_indennita has no _description 
+2026-02-12 11:50:06,721 61322 WARNING lab16 odoo.models: The model solidali_paghe.indice_istat has no _description 
+2026-02-12 11:50:06,721 61322 WARNING lab16 odoo.models: The model solidali_paghe.conf_tabella_inps has no _description 
+2026-02-12 11:50:06,721 61322 WARNING lab16 odoo.models: The model solidali_paghe.conf_ra has no _description 
+2026-02-12 11:50:06,721 61322 WARNING lab16 odoo.models: The model solidali_paghe.conf_tessera_asnali has no _description 
+2026-02-12 11:50:06,721 61322 WARNING lab16 odoo.models: The model solidali_paghe.wizard_crea_mav has no _description 
+2026-02-12 11:50:06,722 61322 WARNING lab16 odoo.models: The model solidali_paghe.wizard_filtra_abbonamento has no _description 
+2026-02-12 11:50:06,722 61322 WARNING lab16 odoo.models: The model hr.work.entry.duplicate has no _description 
+2026-02-12 11:50:06,751 61322 DEBUG lab16 odoo.models: Patching ir.cron.cron_name with translate=True 
+2026-02-12 11:50:06,767 61322 DEBUG lab16 odoo.models: Patching res.config.settings.report_footer with translate=True 
+2026-02-12 11:50:06,768 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms with translate=True 
+2026-02-12 11:50:06,769 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms_html with translate=True 
+2026-02-12 11:50:06,791 61322 DEBUG lab16 odoo.models: Patching base.document.layout.report_footer with translate=True 
+2026-02-12 11:50:06,796 61322 DEBUG lab16 odoo.models: Patching date.range.type_name with translate=True 
+2026-02-12 11:50:06,831 61322 DEBUG lab16 odoo.models: Patching product.template.uom_name with translate=True 
+2026-02-12 11:50:06,836 61322 DEBUG lab16 odoo.models: Patching product.template.attribute.value.name with translate=True 
+2026-02-12 11:50:06,888 61322 DEBUG lab16 odoo.models: Patching account.report.expression.report_line_name with translate=True 
+2026-02-12 11:50:06,899 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_blocked with translate=True 
+2026-02-12 11:50:06,899 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_done with translate=True 
+2026-02-12 11:50:06,899 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_normal with translate=True 
+2026-02-12 11:50:06,908 61322 DEBUG lab16 odoo.models: Patching project.task.legend_blocked with translate=True 
+2026-02-12 11:50:06,908 61322 DEBUG lab16 odoo.models: Patching project.task.legend_done with translate=True 
+2026-02-12 11:50:06,909 61322 DEBUG lab16 odoo.models: Patching project.task.legend_normal with translate=True 
+2026-02-12 11:50:06,925 61322 DEBUG lab16 odoo.models: Patching stock.replenishment.option.uom with translate=True 
+2026-02-12 11:50:06,939 61322 DEBUG lab16 odoo.models: Patching hr.payroll.edit.payslip.worked.days.line.name with translate=True 
+2026-02-12 11:50:06,943 61322 DEBUG lab16 odoo.models: Patching stock.valuation.layer.revaluation.product_uom_name with translate=True 
+2026-02-12 11:50:06,971 61322 WARNING lab16 odoo.fields: solidali_paghe.mav.tip_contrattuale: selection attribute will be ignored as the field is related 
+2026-02-12 11:50:07,174 61322 INFO lab16 odoo.modules.registry: module base_solidali: creating or updating database tables 
+2026-02-12 11:50:07,403 61322 DEBUG lab16 odoo.schema: Table 'hr_version': created 
+2026-02-12 11:50:07,617 61322 INFO lab16 odoo.schema: Table 'hr_work_entry': unable to add constraint 'hr_work_entry__work_entries_no_validated_conflict' as 
+                EXCLUDE USING GIST (
+                    tsrange(date_start, date_stop, '()') WITH &&,
+                    int4range(employee_id, employee_id, '[]') WITH =
+                )
+                WHERE (state = 'validated' AND active = TRUE)
+             
+2026-02-12 11:50:07,738 61322 DEBUG lab16 odoo.schema: Table 'res_partner': column 'e_invoice_detail_level': dropped constraint NOT NULL 
+2026-02-12 11:50:07,768 61322 DEBUG lab16 odoo.schema: Table 'res_company': column 'e_invoice_transmitter_id': dropped constraint NOT NULL 
+2026-02-12 11:50:07,967 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (note_lavoro, note_lingua) of hr.employee() have the same label: Note. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,967 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (tda_altro, fp_altro) of hr.employee() have the same label: Altro. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,968 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (tdp_altro, fp_altro) of hr.employee() have the same label: Altro. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,968 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (note_valutazione, note_lingua) of hr.employee() have the same label: Note. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,968 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (dtt_note, note_lingua) of hr.employee() have the same label: Note. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,968 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_documento_nr, numero_permesso) of hr.employee() have the same label: Documento nr.. [Modules: None and base_solidali] 
+2026-02-12 11:50:07,968 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_rilasciato_da, rilascio_permesso) of hr.employee() have the same label: Rilasciato da. [Modules: None and base_solidali] 
+2026-02-12 11:50:07,968 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_data_richiesta_rinnovo, data_rich_rinn_permesso) of hr.employee() have the same label: Data richiesta rinnovo. [Modules: None and base_solidali] 
+2026-02-12 11:50:07,969 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (nome_operatore, operatore_id) of solidali_paghe.ritenuta_acconto() have the same label: Operatore. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,969 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (ore_retr_oltre_24, ore_retr_fino_24) of solidali_paghe.mav() have the same label: Ore Retribuite. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,969 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (esbii_oltre24, esbii_fino24) of solidali_paghe.mav() have the same label: ESBII. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,969 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (mediprev_oltre24, mediprev_fino24) of solidali_paghe.mav() have the same label: Mediprev. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,969 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (tot_ass_contr_oltre24, tot_ass_contr_fino24) of solidali_paghe.mav() have the same label: Totale Assistenza Contrattuale. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,970 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (diff_oltre24, diff_fino24) of solidali_paghe.mav() have the same label: Differenza contributi INPS. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,970 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (totale_trattenute_oltre24, totale_trattenute_fino24) of solidali_paghe.mav() have the same label: Totale Trattenute INPS. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,970 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (gironi_straordinaio_effettivo, giorni_strd) of sale.order() have the same label: Giorni Straordinari. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,971 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (cod_inps, codice_inps) of sale.order() have the same label: Codice INPS. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,971 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (data_fine_periodo_calendar_event_id, data_start_periodo_calendar_event_id) of sale.order() have the same label: Evento di Calendario. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,971 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (data_mav_calendar_event_id, data_start_periodo_calendar_event_id) of sale.order() have the same label: Evento di Calendario. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,971 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_char_field_mnwx7, x_studio_char_field_bjUHI) of sale.order() have the same label: New Testo. [Modules: None and None] 
+2026-02-12 11:50:07,972 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_abbonamento, subscription_id) of hr.work.entry() have the same label: Abbonamento. [Modules: None and base_solidali] 
+2026-02-12 11:50:07,972 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_date_field_Pp0rL, x_studio_date_field_jVf2D) of hr.work.entry() have the same label: New Data. [Modules: None and None] 
+2026-02-12 11:50:07,972 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (subscription_id, contract_id) of hr.work.entry.type() have the same label: Contratto. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:07,973 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (uom_id, product_uom) of sale.order.line() have the same label: Unit of Measure. [Modules: base_solidali and sale] 
+2026-02-12 11:50:08,791 61322 INFO lab16 odoo.schema: Keep unexpected index hr_employee_message_main_attachment_id_index on table hr_employee 
+2026-02-12 11:50:08,794 61322 INFO lab16 odoo.schema: Keep unexpected index sale_order_message_main_attachment_id_index on table sale_order 
+2026-02-12 11:50:08,794 61322 INFO lab16 odoo.schema: Keep unexpected index sale_order_date_order_index on table sale_order 
+2026-02-12 11:50:08,795 61322 INFO lab16 odoo.schema: Keep unexpected index calendar_event_message_main_attachment_id_index on table calendar_event 
+2026-02-12 11:50:08,795 61322 INFO lab16 odoo.schema: Keep unexpected index calendar_event_recurrence_id_index on table calendar_event 
+2026-02-12 11:50:08,795 61322 INFO lab16 odoo.schema: Keep unexpected index account_move_message_main_attachment_id_index on table account_move 
+2026-02-12 11:50:08,795 61322 INFO lab16 odoo.schema: Keep unexpected index hr_contract_message_main_attachment_id_index on table hr_contract 
+2026-02-12 11:50:08,796 61322 INFO lab16 odoo.schema: Keep unexpected index res_partner_message_main_attachment_id_index on table res_partner 
+2026-02-12 11:50:08,802 61322 INFO lab16 odoo.schema: Keep unexpected index account_payment_message_main_attachment_id_index on table account_payment 
+2026-02-12 11:50:08,802 61322 INFO lab16 odoo.schema: Keep unexpected index account_bank_statement_line_statement_id_index on table account_bank_statement_line 
+2026-02-12 11:50:08,802 61322 INFO lab16 odoo.schema: Keep unexpected index account_bank_statement_line_sequence_index on table account_bank_statement_line 
+2026-02-12 11:50:08,849 61322 DEBUG lab16 odoo.schema: Table 'hr_version': added foreign key 'contract_id' references 'hr_contract'('id') ON DELETE set null 
+2026-02-12 11:50:08,876 61322 DEBUG lab16 odoo.schema: Table 'hr_version': added foreign key 'subscription_id' references 'sale_order'('id') ON DELETE set null 
+2026-02-12 11:50:08,891 61322 DEBUG lab16 odoo.schema: Table 'hr_version': added foreign key 'create_uid' references 'res_users'('id') ON DELETE set null 
+2026-02-12 11:50:08,907 61322 DEBUG lab16 odoo.schema: Table 'hr_version': added foreign key 'write_uid' references 'res_users'('id') ON DELETE set null 
+2026-02-12 11:50:08,953 61322 WARNING lab16 odoo.modules.registry: solidali_paghe.mav: inconsistent 'compute_sudo' for computed fields: totale_contributi_lt24, totale_contributi_gt24, differenza_contributi 
+2026-02-12 11:50:09,021 61322 INFO lab16 odoo.modules.loading: loading base_solidali/data/product.xml 
+2026-02-12 11:50:09,364 61322 INFO lab16 odoo.modules.loading: loading base_solidali/data/ir_sequence_data.xml 
+2026-02-12 11:50:09,373 61322 INFO lab16 odoo.modules.loading: loading base_solidali/security/solidali_security.xml 
+2026-02-12 11:50:09,682 61322 INFO lab16 odoo.modules.loading: loading base_solidali/security/ir.model.access.csv 
+2026-02-12 11:50:10,242 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/partner_view.xml 
+2026-02-12 11:50:10,423 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/solidali_paghe_menuitems.xml 
+2026-02-12 11:50:10,490 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/reports.xml 
+2026-02-12 11:50:10,666 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/calendar_event_view.xml 
+2026-02-12 11:50:10,725 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/solidali_paghe_mav_view.xml 
+2026-02-12 11:50:10,819 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/solidali_paghe_ra_view.xml 
+2026-02-12 11:50:10,870 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/solidali_paghe_view.xml 
+2026-02-12 11:50:10,949 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/solidali_servizio_view.xml 
+2026-02-12 11:50:11,441 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/solidali_titolo_studio_view.xml 
+2026-02-12 11:50:11,487 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/hr_employee.xml 
+2026-02-12 11:50:11,610 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/account_move_view.xml 
+2026-02-12 11:50:11,738 61322 INFO lab16 odoo.modules.loading: loading base_solidali/config/solidali_paghe_conf_fatture_view.xml 
+2026-02-12 11:50:11,782 61322 INFO lab16 odoo.modules.loading: loading base_solidali/config/solidali_paghe_conf_indennita_view.xml 
+2026-02-12 11:50:11,837 61322 INFO lab16 odoo.modules.loading: loading base_solidali/config/solidali_paghe_conf_ra_view.xml 
+2026-02-12 11:50:11,870 61322 INFO lab16 odoo.modules.loading: loading base_solidali/config/solidali_paghe_conf_retribuzioni_view.xml 
+2026-02-12 11:50:11,923 61322 INFO lab16 odoo.modules.loading: loading base_solidali/config/solidali_paghe_conf_tabella_inps_view.xml 
+2026-02-12 11:50:11,979 61322 INFO lab16 odoo.modules.loading: loading base_solidali/config/solidali_paghe_conf_tessera_asnali_view.xml 
+2026-02-12 11:50:12,012 61322 INFO lab16 odoo.modules.loading: loading base_solidali/config/solidali_paghe_indice_istat_view.xml 
+2026-02-12 11:50:12,027 61322 INFO lab16 odoo.modules.loading: loading base_solidali/wizard/crea_mav.xml 
+2026-02-12 11:50:12,075 61322 INFO lab16 odoo.modules.loading: loading base_solidali/wizard/create_bp.xml 
+2026-02-12 11:50:12,088 61322 INFO lab16 odoo.modules.loading: loading base_solidali/wizard/filtra_abbonamento_wizard.xml 
+2026-02-12 11:50:12,127 61322 INFO lab16 odoo.modules.loading: loading base_solidali/wizard/work_entry_duplicate.xml 
+2026-02-12 11:50:12,147 61322 INFO lab16 odoo.modules.loading: loading base_solidali/views/sale_order_actions.xml 
+2026-02-12 11:50:12,152 61322 INFO lab16 odoo.modules.migration: module base_solidali: Running migration [16.0.1.0.2>] post-migrate 
+2026-02-12 11:50:12,152 61322 INFO lab16 post-migrate: ####################################################### 
+2026-02-12 11:50:12,152 61322 INFO lab16 post-migrate: Sta Effettuando MIGRAZIONE 
+2026-02-12 11:50:12,152 61322 INFO lab16 post-migrate: ####################################################### 
+2026-02-12 11:50:12,159 61322 INFO lab16 post-migrate: ####################################################### 
+2026-02-12 11:50:12,159 61322 INFO lab16 post-migrate: FINITA MIGRAZIONE 
+2026-02-12 11:50:12,159 61322 INFO lab16 post-migrate: ####################################################### 
+2026-02-12 11:50:12,169 61322 INFO lab16 odoo.addons.base.models.ir_module: module base_solidali: no translation for language it 
+2026-02-12 11:50:12,254 61322 WARNING lab16 odoo.modules.loading: The models ['hr.version'] have no access rules in module base_solidali, consider adding some, like:
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+base_solidali.access_hr_version,access_hr_version,base_solidali.model_hr_version,base.group_user,1,0,0,0 
+2026-02-12 11:50:12,286 61322 INFO lab16 odoo.modules.loading: Module base_solidali loaded in 6.17s, 1739 queries (+1739 other) 
+2026-02-12 11:50:12,286 61322 DEBUG lab16 odoo.modules.loading: Loading module documents_project_sale (206/221) 
+2026-02-12 11:50:12,290 61322 DEBUG lab16 odoo.modules.loading: Module documents_project_sale loaded in 0.00s, 0 queries 
+2026-02-12 11:50:12,290 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_fatturapa_in (207/221) 
+2026-02-12 11:50:12,317 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_fatturapa_in loaded in 0.03s, 0 queries 
+2026-02-12 11:50:12,317 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_fatturapa_out (208/221) 
+2026-02-12 11:50:12,329 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_fatturapa_out loaded in 0.01s, 0 queries 
+2026-02-12 11:50:12,329 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_fatturapa_sale (209/221) 
+2026-02-12 11:50:12,335 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_fatturapa_sale loaded in 0.01s, 0 queries 
+2026-02-12 11:50:12,335 61322 DEBUG lab16 odoo.modules.loading: Loading module project_sale_subscription (210/221) 
+2026-02-12 11:50:12,340 61322 DEBUG lab16 odoo.modules.loading: Module project_sale_subscription loaded in 0.00s, 0 queries 
+2026-02-12 11:50:12,341 61322 DEBUG lab16 odoo.modules.loading: Loading module sale_project_stock (211/221) 
+2026-02-12 11:50:12,343 61322 DEBUG lab16 odoo.modules.loading: Module sale_project_stock loaded in 0.00s, 0 queries 
+2026-02-12 11:50:12,343 61322 DEBUG lab16 odoo.modules.loading: Loading module sale_timesheet (212/221) 
+2026-02-12 11:50:12,365 61322 DEBUG lab16 odoo.modules.loading: Module sale_timesheet loaded in 0.02s, 0 queries 
+2026-02-12 11:50:12,365 61322 INFO lab16 odoo.modules.loading: Loading module cud_solidali (213/221) 
+2026-02-12 11:50:12,395 61322 DEBUG lab16 odoo.models: Patching ir.cron.cron_name with translate=True 
+2026-02-12 11:50:12,413 61322 DEBUG lab16 odoo.models: Patching res.config.settings.report_footer with translate=True 
+2026-02-12 11:50:12,414 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms with translate=True 
+2026-02-12 11:50:12,415 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms_html with translate=True 
+2026-02-12 11:50:12,438 61322 DEBUG lab16 odoo.models: Patching base.document.layout.report_footer with translate=True 
+2026-02-12 11:50:12,444 61322 DEBUG lab16 odoo.models: Patching date.range.type_name with translate=True 
+2026-02-12 11:50:12,486 61322 DEBUG lab16 odoo.models: Patching product.template.uom_name with translate=True 
+2026-02-12 11:50:12,496 61322 DEBUG lab16 odoo.models: Patching product.template.attribute.value.name with translate=True 
+2026-02-12 11:50:12,550 61322 DEBUG lab16 odoo.models: Patching account.report.expression.report_line_name with translate=True 
+2026-02-12 11:50:12,560 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_blocked with translate=True 
+2026-02-12 11:50:12,560 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_done with translate=True 
+2026-02-12 11:50:12,560 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_normal with translate=True 
+2026-02-12 11:50:12,570 61322 DEBUG lab16 odoo.models: Patching project.task.legend_blocked with translate=True 
+2026-02-12 11:50:12,571 61322 DEBUG lab16 odoo.models: Patching project.task.legend_done with translate=True 
+2026-02-12 11:50:12,571 61322 DEBUG lab16 odoo.models: Patching project.task.legend_normal with translate=True 
+2026-02-12 11:50:12,586 61322 DEBUG lab16 odoo.models: Patching stock.replenishment.option.uom with translate=True 
+2026-02-12 11:50:12,596 61322 DEBUG lab16 odoo.models: Patching hr.payroll.edit.payslip.worked.days.line.name with translate=True 
+2026-02-12 11:50:12,600 61322 DEBUG lab16 odoo.models: Patching stock.valuation.layer.revaluation.product_uom_name with translate=True 
+2026-02-12 11:50:12,631 61322 WARNING lab16 odoo.fields: solidali_paghe.mav.tip_contrattuale: selection attribute will be ignored as the field is related 
+2026-02-12 11:50:12,824 61322 WARNING lab16 odoo.models: The model cud_solidali.cud_massivo_wizard has no _description 
+2026-02-12 11:50:12,824 61322 WARNING lab16 odoo.models: The model cud_solidali.cud_massivo_line has no _description 
+2026-02-12 11:50:12,824 61322 WARNING lab16 odoo.models: The model cud_solidali.cud_singolo_wizard has no _description 
+2026-02-12 11:50:12,845 61322 DEBUG lab16 odoo.models: Patching ir.cron.cron_name with translate=True 
+2026-02-12 11:50:12,861 61322 DEBUG lab16 odoo.models: Patching res.config.settings.report_footer with translate=True 
+2026-02-12 11:50:12,862 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms with translate=True 
+2026-02-12 11:50:12,862 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms_html with translate=True 
+2026-02-12 11:50:12,886 61322 DEBUG lab16 odoo.models: Patching base.document.layout.report_footer with translate=True 
+2026-02-12 11:50:12,896 61322 DEBUG lab16 odoo.models: Patching date.range.type_name with translate=True 
+2026-02-12 11:50:12,943 61322 DEBUG lab16 odoo.models: Patching product.template.uom_name with translate=True 
+2026-02-12 11:50:12,949 61322 DEBUG lab16 odoo.models: Patching product.template.attribute.value.name with translate=True 
+2026-02-12 11:50:13,007 61322 DEBUG lab16 odoo.models: Patching account.report.expression.report_line_name with translate=True 
+2026-02-12 11:50:13,020 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_blocked with translate=True 
+2026-02-12 11:50:13,020 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_done with translate=True 
+2026-02-12 11:50:13,021 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_normal with translate=True 
+2026-02-12 11:50:13,043 61322 DEBUG lab16 odoo.models: Patching project.task.legend_blocked with translate=True 
+2026-02-12 11:50:13,043 61322 DEBUG lab16 odoo.models: Patching project.task.legend_done with translate=True 
+2026-02-12 11:50:13,044 61322 DEBUG lab16 odoo.models: Patching project.task.legend_normal with translate=True 
+2026-02-12 11:50:13,058 61322 DEBUG lab16 odoo.models: Patching stock.replenishment.option.uom with translate=True 
+2026-02-12 11:50:13,066 61322 DEBUG lab16 odoo.models: Patching hr.payroll.edit.payslip.worked.days.line.name with translate=True 
+2026-02-12 11:50:13,070 61322 DEBUG lab16 odoo.models: Patching stock.valuation.layer.revaluation.product_uom_name with translate=True 
+2026-02-12 11:50:13,095 61322 WARNING lab16 odoo.fields: solidali_paghe.mav.tip_contrattuale: selection attribute will be ignored as the field is related 
+2026-02-12 11:50:13,278 61322 INFO lab16 odoo.modules.registry: module cud_solidali: creating or updating database tables 
+2026-02-12 11:50:13,350 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (gironi_straordinaio_effettivo, giorni_strd) of sale.order() have the same label: Giorni Straordinari. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:13,350 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (cod_inps, codice_inps) of sale.order() have the same label: Codice INPS. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:13,350 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (data_fine_periodo_calendar_event_id, data_start_periodo_calendar_event_id) of sale.order() have the same label: Evento di Calendario. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:13,350 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (data_mav_calendar_event_id, data_start_periodo_calendar_event_id) of sale.order() have the same label: Evento di Calendario. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:13,350 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_char_field_mnwx7, x_studio_char_field_bjUHI) of sale.order() have the same label: New Testo. [Modules: None and None] 
+2026-02-12 11:50:13,449 61322 INFO lab16 odoo.schema: Keep unexpected index sale_order_message_main_attachment_id_index on table sale_order 
+2026-02-12 11:50:13,450 61322 INFO lab16 odoo.schema: Keep unexpected index sale_order_date_order_index on table sale_order 
+2026-02-12 11:50:13,493 61322 WARNING lab16 odoo.modules.registry: solidali_paghe.mav: inconsistent 'compute_sudo' for computed fields: totale_contributi_lt24, totale_contributi_gt24, differenza_contributi 
+2026-02-12 11:50:13,666 61322 INFO lab16 odoo.modules.loading: loading cud_solidali/security/ir.model.access.csv 
+2026-02-12 11:50:13,730 61322 INFO lab16 odoo.modules.loading: loading cud_solidali/views/solidali_cud.views.xml 
+2026-02-12 11:50:13,776 61322 INFO lab16 odoo.modules.loading: loading cud_solidali/views/sale_order.xml 
+2026-02-12 11:50:13,903 61322 INFO lab16 odoo.modules.loading: loading cud_solidali/views/sale_order_actions.xml 
+2026-02-12 11:50:13,925 61322 INFO lab16 odoo.modules.loading: loading cud_solidali/wizard/cud_singolo_wizard_views.xml 
+2026-02-12 11:50:13,947 61322 INFO lab16 odoo.modules.loading: loading cud_solidali/wizard/cud_massivo_wizard_views.xml 
+2026-02-12 11:50:13,972 61322 INFO lab16 odoo.modules.loading: loading cud_solidali/views/menu.xml 
+2026-02-12 11:50:14,023 61322 INFO lab16 odoo.addons.base.models.ir_module: module cud_solidali: no translation for language it 
+2026-02-12 11:50:14,058 61322 INFO lab16 odoo.modules.loading: Module cud_solidali loaded in 1.69s, 260 queries (+260 other) 
+2026-02-12 11:50:14,058 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_fatturapa_out_stamp (214/221) 
+2026-02-12 11:50:14,059 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_fatturapa_out_stamp loaded in 0.00s, 0 queries 
+2026-02-12 11:50:14,059 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_invoices_data_communication_fatturapa (215/221) 
+2026-02-12 11:50:14,061 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_invoices_data_communication_fatturapa loaded in 0.00s, 0 queries 
+2026-02-12 11:50:14,061 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_sdi_channel (216/221) 
+2026-02-12 11:50:14,068 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_sdi_channel loaded in 0.01s, 0 queries 
+2026-02-12 11:50:14,068 61322 INFO lab16 odoo.modules.loading: Loading module prestazioni_occasionali_solidali (217/221) 
+2026-02-12 11:50:14,095 61322 DEBUG lab16 odoo.models: Patching ir.cron.cron_name with translate=True 
+2026-02-12 11:50:14,110 61322 DEBUG lab16 odoo.models: Patching res.config.settings.report_footer with translate=True 
+2026-02-12 11:50:14,112 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms with translate=True 
+2026-02-12 11:50:14,112 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms_html with translate=True 
+2026-02-12 11:50:14,135 61322 DEBUG lab16 odoo.models: Patching base.document.layout.report_footer with translate=True 
+2026-02-12 11:50:14,140 61322 DEBUG lab16 odoo.models: Patching date.range.type_name with translate=True 
+2026-02-12 11:50:14,174 61322 DEBUG lab16 odoo.models: Patching product.template.uom_name with translate=True 
+2026-02-12 11:50:14,179 61322 DEBUG lab16 odoo.models: Patching product.template.attribute.value.name with translate=True 
+2026-02-12 11:50:14,227 61322 DEBUG lab16 odoo.models: Patching account.report.expression.report_line_name with translate=True 
+2026-02-12 11:50:14,237 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_blocked with translate=True 
+2026-02-12 11:50:14,238 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_done with translate=True 
+2026-02-12 11:50:14,238 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_normal with translate=True 
+2026-02-12 11:50:14,252 61322 DEBUG lab16 odoo.models: Patching project.task.legend_blocked with translate=True 
+2026-02-12 11:50:14,252 61322 DEBUG lab16 odoo.models: Patching project.task.legend_done with translate=True 
+2026-02-12 11:50:14,252 61322 DEBUG lab16 odoo.models: Patching project.task.legend_normal with translate=True 
+2026-02-12 11:50:14,269 61322 DEBUG lab16 odoo.models: Patching stock.replenishment.option.uom with translate=True 
+2026-02-12 11:50:14,279 61322 DEBUG lab16 odoo.models: Patching hr.payroll.edit.payslip.worked.days.line.name with translate=True 
+2026-02-12 11:50:14,283 61322 DEBUG lab16 odoo.models: Patching stock.valuation.layer.revaluation.product_uom_name with translate=True 
+2026-02-12 11:50:14,312 61322 WARNING lab16 odoo.fields: solidali_paghe.mav.tip_contrattuale: selection attribute will be ignored as the field is related 
+2026-02-12 11:50:14,633 61322 DEBUG lab16 odoo.models: Patching ir.cron.cron_name with translate=True 
+2026-02-12 11:50:14,648 61322 DEBUG lab16 odoo.models: Patching res.config.settings.report_footer with translate=True 
+2026-02-12 11:50:14,649 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms with translate=True 
+2026-02-12 11:50:14,650 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms_html with translate=True 
+2026-02-12 11:50:14,680 61322 DEBUG lab16 odoo.models: Patching base.document.layout.report_footer with translate=True 
+2026-02-12 11:50:14,684 61322 DEBUG lab16 odoo.models: Patching date.range.type_name with translate=True 
+2026-02-12 11:50:14,720 61322 DEBUG lab16 odoo.models: Patching product.template.uom_name with translate=True 
+2026-02-12 11:50:14,726 61322 DEBUG lab16 odoo.models: Patching product.template.attribute.value.name with translate=True 
+2026-02-12 11:50:14,773 61322 DEBUG lab16 odoo.models: Patching account.report.expression.report_line_name with translate=True 
+2026-02-12 11:50:14,783 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_blocked with translate=True 
+2026-02-12 11:50:14,783 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_done with translate=True 
+2026-02-12 11:50:14,783 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_normal with translate=True 
+2026-02-12 11:50:14,795 61322 DEBUG lab16 odoo.models: Patching project.task.legend_blocked with translate=True 
+2026-02-12 11:50:14,795 61322 DEBUG lab16 odoo.models: Patching project.task.legend_done with translate=True 
+2026-02-12 11:50:14,795 61322 DEBUG lab16 odoo.models: Patching project.task.legend_normal with translate=True 
+2026-02-12 11:50:14,809 61322 DEBUG lab16 odoo.models: Patching stock.replenishment.option.uom with translate=True 
+2026-02-12 11:50:14,819 61322 DEBUG lab16 odoo.models: Patching hr.payroll.edit.payslip.worked.days.line.name with translate=True 
+2026-02-12 11:50:14,822 61322 DEBUG lab16 odoo.models: Patching stock.valuation.layer.revaluation.product_uom_name with translate=True 
+2026-02-12 11:50:14,852 61322 WARNING lab16 odoo.fields: solidali_paghe.mav.tip_contrattuale: selection attribute will be ignored as the field is related 
+2026-02-12 11:50:15,037 61322 INFO lab16 odoo.modules.registry: module prestazioni_occasionali_solidali: creating or updating database tables 
+2026-02-12 11:50:15,063 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (gironi_straordinaio_effettivo, giorni_strd) of sale.order() have the same label: Giorni Straordinari. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:15,063 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (cod_inps, codice_inps) of sale.order() have the same label: Codice INPS. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:15,063 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (data_fine_periodo_calendar_event_id, data_start_periodo_calendar_event_id) of sale.order() have the same label: Evento di Calendario. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:15,063 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (data_mav_calendar_event_id, data_start_periodo_calendar_event_id) of sale.order() have the same label: Evento di Calendario. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:15,063 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (committente, committente_id) of sale.order() have the same label: Committente. [Modules: prestazioni_occasionali_solidali and base_solidali] 
+2026-02-12 11:50:15,064 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (operatore, operatore_id) of sale.order() have the same label: Operatore. [Modules: prestazioni_occasionali_solidali and base_solidali] 
+2026-02-12 11:50:15,064 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_char_field_mnwx7, x_studio_char_field_bjUHI) of sale.order() have the same label: New Testo. [Modules: None and None] 
+2026-02-12 11:50:15,111 61322 INFO lab16 odoo.schema: Keep unexpected index sale_order_message_main_attachment_id_index on table sale_order 
+2026-02-12 11:50:15,111 61322 INFO lab16 odoo.schema: Keep unexpected index sale_order_date_order_index on table sale_order 
+2026-02-12 11:50:15,137 61322 WARNING lab16 odoo.modules.registry: solidali_paghe.mav: inconsistent 'compute_sudo' for computed fields: totale_contributi_lt24, totale_contributi_gt24, differenza_contributi 
+2026-02-12 11:50:15,375 61322 INFO lab16 odoo.modules.loading: loading prestazioni_occasionali_solidali/security/ir.model.access.csv 
+2026-02-12 11:50:15,404 61322 INFO lab16 odoo.modules.loading: loading prestazioni_occasionali_solidali/views/prestazioni_occasionali.xml 
+2026-02-12 11:50:15,675 61322 INFO lab16 odoo.addons.base.models.ir_module: module prestazioni_occasionali_solidali: no translation for language it 
+2026-02-12 11:50:15,712 61322 INFO lab16 odoo.modules.loading: Module prestazioni_occasionali_solidali loaded in 1.64s, 185 queries (+185 other) 
+2026-02-12 11:50:15,713 61322 INFO lab16 odoo.modules.loading: Loading module preventivo_solidali (218/221) 
+2026-02-12 11:50:15,740 61322 DEBUG lab16 odoo.models: Patching ir.cron.cron_name with translate=True 
+2026-02-12 11:50:15,762 61322 DEBUG lab16 odoo.models: Patching res.config.settings.report_footer with translate=True 
+2026-02-12 11:50:15,764 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms with translate=True 
+2026-02-12 11:50:15,764 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms_html with translate=True 
+2026-02-12 11:50:15,790 61322 DEBUG lab16 odoo.models: Patching base.document.layout.report_footer with translate=True 
+2026-02-12 11:50:15,796 61322 DEBUG lab16 odoo.models: Patching date.range.type_name with translate=True 
+2026-02-12 11:50:15,849 61322 DEBUG lab16 odoo.models: Patching product.template.uom_name with translate=True 
+2026-02-12 11:50:15,860 61322 DEBUG lab16 odoo.models: Patching product.template.attribute.value.name with translate=True 
+2026-02-12 11:50:15,926 61322 DEBUG lab16 odoo.models: Patching account.report.expression.report_line_name with translate=True 
+2026-02-12 11:50:15,940 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_blocked with translate=True 
+2026-02-12 11:50:15,941 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_done with translate=True 
+2026-02-12 11:50:15,941 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_normal with translate=True 
+2026-02-12 11:50:15,954 61322 DEBUG lab16 odoo.models: Patching project.task.legend_blocked with translate=True 
+2026-02-12 11:50:15,954 61322 DEBUG lab16 odoo.models: Patching project.task.legend_done with translate=True 
+2026-02-12 11:50:15,954 61322 DEBUG lab16 odoo.models: Patching project.task.legend_normal with translate=True 
+2026-02-12 11:50:15,972 61322 DEBUG lab16 odoo.models: Patching stock.replenishment.option.uom with translate=True 
+2026-02-12 11:50:15,986 61322 DEBUG lab16 odoo.models: Patching hr.payroll.edit.payslip.worked.days.line.name with translate=True 
+2026-02-12 11:50:15,991 61322 DEBUG lab16 odoo.models: Patching stock.valuation.layer.revaluation.product_uom_name with translate=True 
+2026-02-12 11:50:16,025 61322 WARNING lab16 odoo.fields: solidali_paghe.mav.tip_contrattuale: selection attribute will be ignored as the field is related 
+2026-02-12 11:50:16,271 61322 WARNING lab16 odoo.api.create: The model odoo.addons.preventivo_solidali.models.solidali_preventivi is not overriding the create method in batch 
+2026-02-12 11:50:16,274 61322 WARNING lab16 odoo.api.create: The model odoo.addons.preventivo_solidali.models.solidali_preventivi_occasionali is not overriding the create method in batch 
+2026-02-12 11:50:16,311 61322 DEBUG lab16 odoo.models: Patching ir.cron.cron_name with translate=True 
+2026-02-12 11:50:16,334 61322 DEBUG lab16 odoo.models: Patching res.config.settings.report_footer with translate=True 
+2026-02-12 11:50:16,336 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms with translate=True 
+2026-02-12 11:50:16,337 61322 DEBUG lab16 odoo.models: Patching res.config.settings.invoice_terms_html with translate=True 
+2026-02-12 11:50:16,369 61322 DEBUG lab16 odoo.models: Patching base.document.layout.report_footer with translate=True 
+2026-02-12 11:50:16,374 61322 DEBUG lab16 odoo.models: Patching date.range.type_name with translate=True 
+2026-02-12 11:50:16,417 61322 DEBUG lab16 odoo.models: Patching product.template.uom_name with translate=True 
+2026-02-12 11:50:16,424 61322 DEBUG lab16 odoo.models: Patching product.template.attribute.value.name with translate=True 
+2026-02-12 11:50:16,497 61322 DEBUG lab16 odoo.models: Patching account.report.expression.report_line_name with translate=True 
+2026-02-12 11:50:16,511 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_blocked with translate=True 
+2026-02-12 11:50:16,512 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_done with translate=True 
+2026-02-12 11:50:16,512 61322 DEBUG lab16 odoo.models: Patching hr.applicant.legend_normal with translate=True 
+2026-02-12 11:50:16,528 61322 DEBUG lab16 odoo.models: Patching project.task.legend_blocked with translate=True 
+2026-02-12 11:50:16,528 61322 DEBUG lab16 odoo.models: Patching project.task.legend_done with translate=True 
+2026-02-12 11:50:16,528 61322 DEBUG lab16 odoo.models: Patching project.task.legend_normal with translate=True 
+2026-02-12 11:50:16,549 61322 DEBUG lab16 odoo.models: Patching stock.replenishment.option.uom with translate=True 
+2026-02-12 11:50:16,563 61322 DEBUG lab16 odoo.models: Patching hr.payroll.edit.payslip.worked.days.line.name with translate=True 
+2026-02-12 11:50:16,569 61322 DEBUG lab16 odoo.models: Patching stock.valuation.layer.revaluation.product_uom_name with translate=True 
+2026-02-12 11:50:16,787 61322 WARNING lab16 odoo.fields: solidali_paghe.mav.tip_contrattuale: selection attribute will be ignored as the field is related 
+2026-02-12 11:50:17,046 61322 INFO lab16 odoo.modules.registry: module preventivo_solidali: creating or updating database tables 
+2026-02-12 11:50:17,070 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (tfr_value, tfr) of solidali.preventivi() have the same label: TFR. [Modules: preventivo_solidali and preventivo_solidali] 
+2026-02-12 11:50:17,071 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (tredicesima_value, tredicesima) of solidali.preventivi() have the same label: Tredicesima. [Modules: preventivo_solidali and preventivo_solidali] 
+2026-02-12 11:50:17,128 61322 WARNING lab16 odoo.modules.registry: solidali_paghe.mav: inconsistent 'compute_sudo' for computed fields: totale_contributi_lt24, totale_contributi_gt24, differenza_contributi 
+2026-02-12 11:50:17,301 61322 INFO lab16 odoo.modules.loading: loading preventivo_solidali/security/ir.model.access.csv 
+2026-02-12 11:50:17,334 61322 INFO lab16 odoo.modules.loading: loading preventivo_solidali/data/ir_sequence_data.xml 
+2026-02-12 11:50:17,348 61322 INFO lab16 odoo.modules.loading: loading preventivo_solidali/views/solidali_preventivi.xml 
+2026-02-12 11:50:17,448 61322 INFO lab16 odoo.modules.loading: loading preventivo_solidali/views/menu.xml 
+2026-02-12 11:50:17,512 61322 INFO lab16 odoo.addons.base.models.ir_module: module preventivo_solidali: no translation for language it 
+2026-02-12 11:50:17,541 61322 INFO lab16 odoo.modules.loading: Module preventivo_solidali loaded in 1.83s, 142 queries (+142 other) 
+2026-02-12 11:50:17,541 61322 DEBUG lab16 odoo.modules.loading: Loading module sale_timesheet_enterprise (219/221) 
+2026-02-12 11:50:17,549 61322 DEBUG lab16 odoo.modules.loading: Module sale_timesheet_enterprise loaded in 0.01s, 0 queries 
+2026-02-12 11:50:17,549 61322 DEBUG lab16 odoo.modules.loading: Loading module spreadsheet_dashboard_sale_timesheet (220/221) 
+2026-02-12 11:50:17,550 61322 DEBUG lab16 odoo.modules.loading: Module spreadsheet_dashboard_sale_timesheet loaded in 0.00s, 0 queries 
+2026-02-12 11:50:17,550 61322 DEBUG lab16 odoo.modules.loading: Loading module l10n_it_fatturapa_pec (221/221) 
+2026-02-12 11:50:17,559 61322 DEBUG lab16 odoo.modules.loading: Module l10n_it_fatturapa_pec loaded in 0.01s, 0 queries 
+2026-02-12 11:50:17,559 61322 INFO lab16 odoo.modules.loading: 221 modules loaded in 13.69s, 2326 queries (+2326 extra) 
+2026-02-12 11:50:17,574 61322 DEBUG lab16 odoo.modules.loading: Updating graph with 1 more modules 
+2026-02-12 11:50:17,579 61322 INFO lab16 odoo.modules.loading: loading 221 modules... 
+2026-02-12 11:50:17,580 61322 INFO lab16 odoo.modules.loading: 221 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-02-12 11:50:17,589 61322 DEBUG lab16 odoo.modules.loading: Updating graph with 1 more modules 
+2026-02-12 11:50:17,594 61322 INFO lab16 odoo.modules.loading: loading 221 modules... 
+2026-02-12 11:50:17,596 61322 INFO lab16 odoo.modules.loading: 221 modules loaded in 0.00s, 0 queries (+0 extra) 
+2026-02-12 11:50:17,973 61322 WARNING lab16 odoo.fields: solidali_paghe.mav.tip_contrattuale: selection attribute will be ignored as the field is related 
+2026-02-12 11:50:18,365 61322 WARNING lab16 odoo.fields: solidali_paghe.mav.tip_contrattuale: selection attribute will be ignored as the field is related 
+2026-02-12 11:50:18,735 61322 WARNING lab16 odoo.schema: Table 'hr_work_entry': unable to add constraint 'hr_work_entry__work_entries_no_validated_conflict' as 
+                EXCLUDE USING GIST (
+                    tsrange(date_start, date_stop, '()') WITH &&,
+                    int4range(employee_id, employee_id, '[]') WITH =
+                )
+                WHERE (state = 'validated' AND active = TRUE)
+             
+2026-02-12 11:50:18,743 61322 DEBUG lab16 odoo.models: column pricing_id is in the table sale_order_template_line but not in the corresponding object sale.order.template.line 
+2026-02-12 11:50:18,744 61322 DEBUG lab16 odoo.models: column option_pricing_id is in the table sale_order_template_option but not in the corresponding object sale.order.template.option 
+2026-02-12 11:50:18,746 61322 DEBUG lab16 odoo.models: column option_pricing_id is in the table sale_order_option but not in the corresponding object sale.order.option 
+2026-02-12 11:50:18,780 61322 DEBUG lab16 odoo.models: column date_start is in the table hr_contract_employee_report but not in the corresponding object hr.contract.employee.report 
+2026-02-12 11:50:18,781 61322 DEBUG lab16 odoo.models: column date_end is in the table hr_contract_employee_report but not in the corresponding object hr.contract.employee.report 
+2026-02-12 11:50:18,846 61322 DEBUG lab16 odoo.models: column display_name is in the table res_city_zip but not in the corresponding object res.city.zip 
+2026-02-12 11:50:18,868 61322 DEBUG lab16 odoo.models: column sale_order_id is in the table hr_contract but not in the corresponding object hr.contract 
+2026-02-12 11:50:18,869 61322 DEBUG lab16 odoo.models: column subscription_id is in the table hr_contract but not in the corresponding object hr.contract 
+2026-02-12 11:50:18,918 61322 DEBUG lab16 odoo.models: column index is in the table res_users_apikeys but not in the corresponding object res.users.apikeys 
+2026-02-12 11:50:18,919 61322 DEBUG lab16 odoo.models: column key is in the table res_users_apikeys but not in the corresponding object res.users.apikeys 
+2026-02-12 11:50:18,922 61322 DEBUG lab16 odoo.models: column index is in the table auth_totp_device but not in the corresponding object auth_totp.device 
+2026-02-12 11:50:18,922 61322 DEBUG lab16 odoo.models: column key is in the table auth_totp_device but not in the corresponding object auth_totp.device 
+2026-02-12 11:50:19,054 61322 DEBUG lab16 odoo.models: column _mig_sst_id is in the table sale_temporal_recurrence but not in the corresponding object sale.temporal.recurrence 
+2026-02-12 11:50:19,112 61322 DEBUG lab16 odoo.models: column web is in the table ir_module_module but not in the corresponding object ir.module.module 
+2026-02-12 11:50:19,138 61322 DEBUG lab16 odoo.models: column employee_feedback_template is in the table hr_appraisal but not in the corresponding object hr.appraisal 
+2026-02-12 11:50:19,138 61322 DEBUG lab16 odoo.models: column manager_feedback_template is in the table hr_appraisal but not in the corresponding object hr.appraisal 
+2026-02-12 11:50:19,138 61322 DEBUG lab16 odoo.models: column show_templates is in the table hr_appraisal but not in the corresponding object hr.appraisal 
+2026-02-12 11:50:19,190 61322 DEBUG lab16 odoo.models: column old_subscription_id is in the table sale_order_log but not in the corresponding object sale.order.log 
+2026-02-12 11:50:19,196 61322 DEBUG lab16 odoo.models: column so_analytic_account_id is in the table project_task but not in the corresponding object project.task 
+2026-02-12 11:50:19,282 61322 DEBUG lab16 odoo.models: column signup_token is in the table res_partner but not in the corresponding object res.partner 
+2026-02-12 11:50:19,307 61322 DEBUG lab16 odoo.models: column service_upsell_threshold is in the table product_product but not in the corresponding object product.product 
+2026-02-12 11:50:19,322 61322 DEBUG lab16 odoo.models: column reminder_user_allow is in the table res_config_settings but not in the corresponding object res.config.settings 
+2026-02-12 11:50:19,323 61322 DEBUG lab16 odoo.models: column reminder_manager_allow is in the table res_config_settings but not in the corresponding object res.config.settings 
+2026-02-12 11:50:19,325 61322 DEBUG lab16 odoo.models: column account_type is in the table account_move_line but not in the corresponding object account.move.line 
+2026-02-12 11:50:19,329 61322 DEBUG lab16 odoo.models: column subscription_template_id is in the table product_template but not in the corresponding object product.template 
+2026-02-12 11:50:19,341 61322 DEBUG lab16 odoo.models: column password is in the table res_users but not in the corresponding object res.users 
+2026-02-12 11:50:19,341 61322 DEBUG lab16 odoo.models: column totp_secret is in the table res_users but not in the corresponding object res.users 
+2026-02-12 11:50:19,341 61322 INFO lab16 odoo.modules.loading: Model solidali.paga is declared but cannot be loaded! (Perhaps a module was partially removed or renamed) 
+2026-02-12 11:50:19,357 61322 INFO lab16 odoo.addons.base.models.ir_model: Deleting 11890@ir.model.fields (base_solidali.field_hr_contract__subscription_id) 
+2026-02-12 11:50:19,766 61322 INFO lab16 odoo.models.unlink: User #1 deleted ir.model.data records with IDs: [40024] 
+2026-02-12 11:50:19,766 61322 INFO lab16 odoo.models.unlink: User #1 deleted ir.model.fields records with IDs: [11890] 
+2026-02-12 11:50:19,803 61322 WARNING lab16 odoo.modules.registry: solidali_paghe.mav: inconsistent 'compute_sudo' for computed fields: totale_contributi_lt24, totale_contributi_gt24, differenza_contributi 
+2026-02-12 11:50:19,807 61322 DEBUG lab16 odoo.addons.base.models.ir_cron: will execute 'Base: Auto-vacuum internal data' at 2026-02-12 11:51:19.768354 
+2026-02-12 11:50:19,808 61322 INFO lab16 odoo.modules.registry: verifying fields for every extended model 
+2026-02-12 11:50:19,852 61322 DEBUG lab16 odoo.models: Table 'res_partner': setting default value of new column e_invoice_detail_level to '2' 
+2026-02-12 11:50:19,936 61322 DEBUG lab16 odoo.models: Table 'res_company': setting default value of new column e_invoice_transmitter_id to 1 
+2026-02-12 11:50:19,995 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (note_lavoro, note_lingua) of hr.employee() have the same label: Note. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:19,995 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (tda_altro, fp_altro) of hr.employee() have the same label: Altro. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:19,995 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (tdp_altro, fp_altro) of hr.employee() have the same label: Altro. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:19,995 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (note_valutazione, note_lingua) of hr.employee() have the same label: Note. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:19,995 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (dtt_note, note_lingua) of hr.employee() have the same label: Note. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:19,995 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_documento_nr, numero_permesso) of hr.employee() have the same label: Documento nr.. [Modules: None and base_solidali] 
+2026-02-12 11:50:19,995 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_rilasciato_da, rilascio_permesso) of hr.employee() have the same label: Rilasciato da. [Modules: None and base_solidali] 
+2026-02-12 11:50:19,995 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_data_richiesta_rinnovo, data_rich_rinn_permesso) of hr.employee() have the same label: Data richiesta rinnovo. [Modules: None and base_solidali] 
+2026-02-12 11:50:19,996 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (uom_id, product_uom) of sale.order.line() have the same label: Unit of Measure. [Modules: base_solidali and sale] 
+2026-02-12 11:50:19,997 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (gironi_straordinaio_effettivo, giorni_strd) of sale.order() have the same label: Giorni Straordinari. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:19,997 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (cod_inps, codice_inps) of sale.order() have the same label: Codice INPS. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:19,997 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (data_fine_periodo_calendar_event_id, data_start_periodo_calendar_event_id) of sale.order() have the same label: Evento di Calendario. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:19,997 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (data_mav_calendar_event_id, data_start_periodo_calendar_event_id) of sale.order() have the same label: Evento di Calendario. [Modules: base_solidali and base_solidali] 
+2026-02-12 11:50:19,997 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (committente, committente_id) of sale.order() have the same label: Committente. [Modules: prestazioni_occasionali_solidali and base_solidali] 
+2026-02-12 11:50:19,997 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (operatore, operatore_id) of sale.order() have the same label: Operatore. [Modules: prestazioni_occasionali_solidali and base_solidali] 
+2026-02-12 11:50:19,997 61322 WARNING lab16 odoo.addons.base.models.ir_model: Two fields (x_studio_char_field_mnwx7, x_studio_char_field_bjUHI) of sale.order() have the same label: New Testo. [Modules: None and None] 
+2026-02-12 11:50:20,249 61322 DEBUG lab16 odoo.schema: Table 'res_partner': column 'e_invoice_detail_level': added constraint NOT NULL 
+2026-02-12 11:50:20,267 61322 DEBUG lab16 odoo.schema: Table 'res_company': column 'e_invoice_transmitter_id': added constraint NOT NULL 
+2026-02-12 11:50:20,295 61322 INFO lab16 odoo.schema: Keep unexpected index calendar_event_message_main_attachment_id_index on table calendar_event 
+2026-02-12 11:50:20,295 61322 INFO lab16 odoo.schema: Keep unexpected index calendar_event_recurrence_id_index on table calendar_event 
+2026-02-12 11:50:20,295 61322 INFO lab16 odoo.schema: Keep unexpected index hr_employee_message_main_attachment_id_index on table hr_employee 
+2026-02-12 11:50:20,295 61322 INFO lab16 odoo.schema: Keep unexpected index account_payment_message_main_attachment_id_index on table account_payment 
+2026-02-12 11:50:20,296 61322 INFO lab16 odoo.schema: Keep unexpected index res_partner_message_main_attachment_id_index on table res_partner 
+2026-02-12 11:50:20,296 61322 INFO lab16 odoo.schema: Keep unexpected index hr_contract_message_main_attachment_id_index on table hr_contract 
+2026-02-12 11:50:20,296 61322 INFO lab16 odoo.schema: Keep unexpected index account_move_message_main_attachment_id_index on table account_move 
+2026-02-12 11:50:20,297 61322 INFO lab16 odoo.schema: Keep unexpected index account_bank_statement_line_statement_id_index on table account_bank_statement_line 
+2026-02-12 11:50:20,297 61322 INFO lab16 odoo.schema: Keep unexpected index account_bank_statement_line_sequence_index on table account_bank_statement_line 
+2026-02-12 11:50:20,297 61322 INFO lab16 odoo.schema: Keep unexpected index sale_order_message_main_attachment_id_index on table sale_order 
+2026-02-12 11:50:20,297 61322 INFO lab16 odoo.schema: Keep unexpected index sale_order_date_order_index on table sale_order 
+2026-02-12 11:50:22,557 61322 INFO lab16 odoo.modules.loading: Modules loaded. 
+2026-02-12 11:50:22,592 61322 INFO lab16 odoo.modules.registry: Registry loaded in 27.122s 
+2026-02-12 11:50:22,593 61322 INFO lab16 odoo.service.server: Initiating shutdown 
+2026-02-12 11:50:22,593 61322 INFO lab16 odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2026-02-12 11:50:22,593 61322 DEBUG lab16 odoo.service.server: on_close call <bound method Event.set of <threading.Event object at 0x729ceede9c30>> 
+2026-02-12 11:50:22,593 61322 DEBUG lab16 odoo.service.server: on_close call <function _kick_all at 0x729cee39d750> 
+2026-02-12 11:50:22,594 61322 DEBUG lab16 odoo.service.server: current thread: <_MainThread(MainThread, started 126018854408320)> 
+2026-02-12 11:50:22,594 61322 DEBUG lab16 odoo.service.server: process <_MainThread(MainThread, started 126018854408320)> (False) 
+2026-02-12 11:50:22,594 61322 INFO lab16 odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 1 connections  
+2026-02-12 11:50:22,594 61322 DEBUG lab16 odoo.service.server: -- 
