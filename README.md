@@ -25,7 +25,7 @@ Crea la cartella migrations/16.0.1.1/ nel tuo modulo. Il file pre-migrate.py ser
 Scopo: Se Odoo vede che il campo è stato rimosso dal Python, potrebbe eliminare la colonna SQL. Noi la salviamo in una tabella temporanea.
 
 Python
-# migrations/16.0.1.1/pre-migrate.py
+# migrations/16.0.1.2/pre-migrate.py
 ```
 def migrate(cr, version):
     # Salviamo i dati esistenti in una tabella temporanea
@@ -42,7 +42,7 @@ Crea il file post-migrate.py nella stessa cartella. Questo sposterà i dati dall
 Scopo: Riassociare l'ID dell'abbonamento al record corretto in hr.version.
 
 Python
-# migrations/16.0.1.1/post-migrate.py
+# migrations/16.0.1.2/post-migrate.py
 ```
 def migrate(cr, version):
     # Aggiorniamo hr_version usando i dati salvati nella tabella temporanea
@@ -60,7 +60,7 @@ Odoo eseguirà gli script di migrazione solo se il numero di versione aumenta.
 
 Apri __manifest__.py.
 
-Se la versione era 16.0.1.0, modificala in 16.0.1.1.
+Se la versione era 16.0.1.0, modificala in 16.0.1.2
 
 Step 5: Aggiornamento delle Viste XML
 Non dimenticare di spostare il campo anche nell'interfaccia!
