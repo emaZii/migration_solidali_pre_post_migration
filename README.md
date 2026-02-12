@@ -3,6 +3,8 @@
 PS: Non e tutto il modulo di base_solidali e stato preso solo quello necessario per far vedere se la migrazione funziona 
 
 # Dati
+<img width="717" height="452" alt="Prima_della_migrazione" src="https://github.com/user-attachments/assets/4c9404e7-d3e8-48d7-a853-6444a97b33ac" />
+
 
 # Il modello Pyhton
 <img width="389" height="62" alt="image" src="https://github.com/user-attachments/assets/2db2ed2d-d25e-4091-9426-4da4e2fd665f" />
