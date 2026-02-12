@@ -1,7 +1,7 @@
 ### Migration Test
 
 PS: Non e tutto il modulo di base_solidali e stato preso solo quello necessario per far vedere se la migrazione funziona 
-salto di versione -> 6.0.1.1 -> 16.0.1.2.
+salto di versione -> 6.0.1.0 -> 16.0.1.2.
 
 Step 1: Modifica del Codice Python (I Modelli)
 Prima di tutto, devi aggiornare la struttura dei tuoi modelli. Il campo deve "sparire" dal vecchio posto e "apparire" nel nuovo.
